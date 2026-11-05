@@ -1,0 +1,14 @@
+Power Output (W)
+00:00 Nighttime 0
+02:00 Nighttime 0
+04:00 Nighttime 0
+06:00 Perfect Clear Skies 10
+08:00 Perfect Clear Skies 125
+10:00 Perfect Clear Skies 375
+12:00 Perfect Clear Skies 500
+14:00 Clouds 113
+16:00 Clouds 37
+18:00 Clouds 0
+20:00 Nighttime 0
+22:00 Nighttime 0
+24:00 Nighttime 0

@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="How Professor Jerry RV handles information you choose to share.">
+  <title>Services | Professor Jerry RV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+    /* Page-specific styles only; the site's existing stylesheet remains authoritative. */
+    .inner-page-heading { padding: 4.5rem 0 3rem; background: #f4f6f8; }
+    .inner-page-heading h1 { margin: .5rem 0 1rem; max-width: 850px; color: var(--navy, #143A63); }
+    .inner-page-heading p:last-child { max-width: 720px; }
+    .inner-page-content { max-width: 850px; }
+    .inner-page-content h2 { margin-top: 2rem; }
+    .inner-page-content p { line-height: 1.8; }
+    .inner-page-cta { text-align: center; }
+    .inner-page-cta .button { margin-top: 1rem; }
+  </style>
+  <style>
+    .offering-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(min(100%, 15rem), 1fr));
+      gap: 1rem;
+    }
+
+    .offering-card {
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+      border: 1px solid #b8cadc;
+      border-radius: 1rem;
+      background: #eaf1f8;
+      color: #0b203b;
+    }
+
+    .offering-photo {
+      display: grid;
+      place-items: center;
+      width: 100%;
+      aspect-ratio: 3 / 2;
+      object-fit: contain;
+      background: #dce7f2;
+    }
+
+    .offering-body {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      gap: 0.65rem;
+      padding: 1rem;
+      font-size: 0.92rem;
+    }
+
+    .offering-body h2,
+    .offering-body p {
+      margin: 0;
+    }
+
+    .offering-body h2 {
+      font-size: 1.15rem;
+      line-height: 1.3;
+    }
+
+    .offering-price {
+      margin-top: auto;
+      padding-top: 0.4rem;
+    }
+
+    .offering-price strong {
+      font-size: 1.2rem;
+    }
+
+    .offering-price del {
+      color: #495c72;
+    }
+
+    .offering-sale {
+      color: #942b1b;
+    }
+
+    .seminar-card {
+      max-width: 38rem;
+    }
+
+    .seminar-sections {
+      padding: 0.85rem;
+      border-radius: 0.65rem;
+      background: #fff;
+    }
+
+    .seminar-sections h3 {
+      margin: 0;
+      font-size: 1rem;
+    }
+
+    .seminar-sections ul {
+      margin: 0.4rem 0 0;
+      padding: 0;
+      list-style: none;
+    }
+
+
+    .offering-preview {
+      display: grid;
+      gap: 0.4rem;
+      margin-top: 0.6rem;
+      padding-top: 0.6rem;
+      border-top: 1px solid #b8cadc;
+    }
+
+    .offering-preview iframe {
+      display: block;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      border: 0;
+    }
+
+    .offering-pdf {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 44px;
+      min-height: 44px;
+      margin-inline-start: 0.25rem;
+      vertical-align: middle;
+      color: #942b1b;
+    }
+
+    .seminar-sections .offering-preview {
+      grid-column: 1 / -1;
+    }
+
+    .seminar-sections li {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0.75rem;
+      padding: 0.55rem 0;
+      border-top: 1px solid #dce7f2;
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" data-header>
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Professor Jerry RV home">
+        <img src="assets/images/logo-banner.png" alt="Professor Jerry RV" onerror="this.hidden=true; this.nextElementSibling.hidden=false;">
+        <span class="brand-fallback" hidden>Professor Jerry RV</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav" data-nav-toggle>
+        <span class="sr-only">Open navigation</span>
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation" data-nav>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#partners">Products &amp; Partners</a>
+        <a href="index.html#contact">Contact</a>
+        <a class="button button-small" href="tel:+15125229050">Call (512) 522-9050</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="inner-page-heading" id="training">
+      <div style="margin-top:60px" class="container">
+        <p class="eyebrow">Professor Jerry RV Training</p>
+        <h1>RV Training</h1>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container inner-page-content">
+        <p class="lead">One-on-One Offerings</p>
+ <div class="offering-grid">
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/walkthru.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Personalized RV Complete Training Walk Through</h2>
+              <p>Winterizing? We're in Texas... not Wisconsin... Correct, but think back to a few recent winters with temperatures remaining
+below freezing for several days. Winter doesn't last all that long here.  But it can easily do as much costly damage to your RV plumbing as it would in Wisconsin.
+If the weather forecast says drip your pipes at home, your RV needs attention.
+Winterizing consists of draining and flushing all of the water from all pipes, water heater, fresh water tank, and low point drains.  After flushing, the pipes are
+filled with food-safe RV anti-freeze.  De-winterizing reverses the process by flushing out the antifreeze and refilling with fresh water.
+
+              <div class="offering-price"><strong>$199</strong> Winterizing</div>
+              <div class="offering-price"><strong>$199</strong> De-Winterizing (25% discount plus free fresh tank sanitizing if we did the winterizing)</div>
+            </div>
+          </article>
+ <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/concierge2.jpg"</img></div>
+            <div class="offering-body">
+              <h2>RV Concierge Service</h2>
+              <p>Monthly visits to your RV while in storage to check for rodent invasion or damage, run the generator for a few minutes as is likely specified in your manual. run the heater for a few minutes as is likely specified in your manual.  Do an overall visual checkout of your RV.
+              <div class="offering-price"><strong>$150</strong> per Monthly Visit (Client approves each month in advance; Unattended access to RV is required)</div>
+            </div>
+          </article>
+
+</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container inner-page-content">
+        <p class="lead">RV Training Seminar Offerings</p>
+        <article class="offering-card seminar-card">
+          <div class="offering-body">
+            <h2>RV Electrical Systems</h2>
+            <p>Learn how your RV gets and uses power, and how to estimate what you need for the way you camp.</p>
+            <p class="offering-price">Full presentation <strong>### minutes</strong> <span>(all sections)</span></p>
+            <div class="offering-preview" style="width:50%">
+              <strong>Preview</strong>
+<center>
+                    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                      title="Offering preview video" loading="lazy" allowfullscreen></iframe>
+</center>
+            </div>
+            <div class="seminar-sections">
+              <h3>Individual sections</h3>
+              <p>Sections must be presented in order.  However each section has a natural ending should you only have time allocated for an abbreviated presentation.</p>
+              <ul>
+                <li>
+                  <span>12V Batteries vs. 120V A/C</span>
+                  <strong>### minutes</strong>
+                  <!-- Optional: uncomment this block, replace the example URLs,
+                       and keep only the links or embed you want to show.
+                  <div class="offering-preview">
+                    <strong>Preview &amp; samples</strong>
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the teaser</a>
+                    <a href="assets/docs/sample-handout.pdf">View sample handout (PDF)</a>
+                    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                      title="Offering preview video" loading="lazy" allowfullscreen></iframe>
+                  </div>
+                  -->
+                </li>
+                <li>
+                  <span>How Much Do You Have vs. How Much Do You Need?</span>
+                  <strong>### minutes</strong>
+                  <!-- Optional: uncomment this block, replace the example URLs,
+                       and keep only the links or embed you want to show.
+                  <div class="offering-preview">
+                    <strong>Preview &amp; samples</strong>
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the teaser</a>
+                    <a href="assets/docs/sample-handout.pdf">View sample handout (PDF)</a>
+                    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                      title="Offering preview video" loading="lazy" allowfullscreen></iframe>
+                  </div>
+                  -->
+                </li>
+ <li>
+                  <span>???</span>
+                  <strong>### minutes</strong>
+                  <!-- Optional: uncomment this block, replace the example URLs,
+                       and keep only the links or embed you want to show.
+                  <div class="offering-preview">
+                    <strong>Preview &amp; samples</strong>
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the teaser</a>
+                    <a href="assets/docs/sample-handout.pdf">View sample handout (PDF)</a>
+                    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                      title="Offering preview video" loading="lazy" allowfullscreen></iframe>
+                  </div>
+                  -->
+ <li>
+                  <span>???</span>
+                  <strong>### minutes</strong>
+                  <!-- Optional: uncomment this block, replace the example URLs,
+                       and keep only the links or embed you want to show.
+                  <div class="offering-preview">
+                    <strong>Preview &amp; samples</strong>
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the teaser</a>
+                    <a href="assets/docs/sample-handout.pdf">View sample handout (PDF)</a>
+                    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                      title="Offering preview video" loading="lazy" allowfullscreen></iframe>
+                  </div>
+                  -->
+ <li>
+                  <span>???</span>
+                  <strong>### minutes</strong>
+                  <!-- Optional: uncomment this block, replace the example URLs,
+                       and keep only the links or embed you want to show.
+                  <div class="offering-preview">
+                    <strong>Preview &amp; samples</strong>
+                    <a href="https://www.youtube.com/watch?v=VIDEO_ID">Watch the teaser</a>
+                    <a href="assets/docs/sample-handout.pdf">View sample handout (PDF)</a>
+                    <iframe src="https://www.youtube-nocookie.com/embed/VIDEO_ID"
+                      title="Offering preview video" loading="lazy" allowfullscreen></iframe>
+                  </div>
+                  -->
+
+              </ul>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="inner-page-heading" id="service">
+      <div style="margin-top:25px" class="container">
+        <p class="eyebrow">Professor Jerry RV Service</p>
+        <h1>RV Service</h1>
+        <p class="lead">RV Service Offerings and Pricing</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container inner-page-content">
+ <div class="offering-grid">
+
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/winterizing.jpg"</img></div>
+            <div class="offering-body">
+              <h2>RV Winterizing</h2>
+              <p>Winterizing? We're in Texas... not Wisconsin... Correct, but think back to a few recent winters with temperatures remaining
+below freezing for several days. Winter doesn't last all that long here.  But it can easily do as much costly damage to your RV plumbing as it would in Wisconsin.
+If the weather forecast says drip your pipes at home, your RV needs attention.
+Winterizing consists of draining and flushing all of the water from all pipes, water heater, fresh water tank, and low point drains.  After flushing, the pipes are
+filled with food-safe RV anti-freeze.  De-winterizing reverses the process by flushing out the antifreeze and refilling with fresh water.
+
+              <div class="offering-price"><strong>$199</strong> Winterizing</div>
+              <div class="offering-price"><strong>$199</strong> De-Winterizing (25% discount plus free fresh tank sanitizing if we did the winterizing)</div>
+            </div>
+          </article>
+ <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/concierge2.jpg"</img></div>
+            <div class="offering-body">
+              <h2>RV Concierge Service</h2>
+              <p>Monthly visits to your RV while in storage to check for rodent invasion or damage, run the generator for a few minutes as is likely specified in your manual. run the heater for a few minutes as is likely specified in your manual.  Do an overall visual checkout of your RV.
+              <div class="offering-price"><strong>$150</strong> per Monthly Visit (Client approves each month in advance; Unattended access to RV is required)</div>
+            </div>
+          </article>
+
+</div>
+      </div>
+    </section>
+
+    <section class="inner-page-heading" id="inspections">
+      <div style="margin-top:25px" class="container">
+        <p class="eyebrow">Professor Jerry RV Inspections</p>
+        <h1>RV Inspections</h1>
+        <p class="lead">RV Inspections Information and Pricing</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container inner-page-content">
+        <p>
+  An RV is a major purchase. Just as you’d have a home inspected before buying it,
+  you can have an independent inspector look over the RV before you sign. That
+  applies whether you’re buying a used RV or taking delivery of a
+  brand-new RV.
+</p>
+
+<p>
+  On a used RV, the inspection can help you spot wear, damage, or systems that
+  aren’t working as expected. On a new RV, it gives you a chance to bring issues
+  to the dealer’s attention before delivery. A warranty can help cover eligible
+  repairs, but you may still have to wait for a service appointment.
+</p>
+
+<h3>Why Choose a Certified RV Inspector?</h3>
+<p>
+  An RV packs a lot into a small space. It has plumbing, propane, batteries,
+  120-volt electrical circuits, appliances, heating and cooling, and often
+  slide-outs or leveling equipment. A system can appear to work during a quick
+  walkthrough and still perform poorly when tested.
+</p>
+
+<p>
+  A certified RV inspector is trained to check those systems methodically and
+  document what they find. I use inspection software designed for RVs to record
+  the condition of the roof, exterior, and accessible systems. The result is a
+  written record you can refer to when deciding what to ask the seller about
+  before you buy.
+</p>
+
+<h3>What Happens During an Inspection?</h3>
+<p>
+  Plan on about five to ten hours on site, depending on the RV’s size and
+  features. The on-site inspection takes place in a single calendar day. I take
+  hundreds of photos and select the ones that best show the RV’s condition and
+  the findings that matter. A detailed report may run 100 pages or more and
+  include around 80 to 100 photos.
+</p>
+
+<p>
+  The report lists the most serious findings first, including any life safety
+  concerns. If a finding raises a safety concern, I may recommend having a
+  qualified RV technician evaluate it before you enter, drive, or move the RV.
+</p>
+
+<p>
+  The inspection documents observed conditions and potential problems. A
+  qualified technician can use those findings to diagnose the cause and
+  recommend repairs. For motorhomes, the inspection covers the RV portion.
+  Arrange a separate mechanical inspection if you want the engine evaluated.
+</p>
+
+<p>
+  To get an idea of what you’ll receive, take a look at the inspection report I prepared
+  on my own Forest River Rockwood MiniLite 2515S for my <b>National RV Inspectors Academy</b> final exam.
+</p>
+
+<p>
+  View sample inspection report
+  <a
+    class="offering-pdf"
+    href="assets/documents/MalcolmForestRiverRockwood2515sFinal.pdf"
+    aria-label="View sample inspection report (PDF)"
+  >
+    <svg
+      width="28"
+      height="32"
+      viewBox="0 0 28 32"
+      aria-hidden="true"
+      focusable="false"
+    >
+      <path d="M4 1h12l8 8v22H4z" fill="white" stroke="currentColor" stroke-width="2"/>
+      <path d="M16 1v8h8" fill="none" stroke="currentColor" stroke-width="2"/>
+      <rect x="0" y="14" width="28" height="13" rx="2" fill="currentColor"/>
+      <text
+        x="14"
+        y="24"
+        text-anchor="middle"
+        fill="white"
+        font-family="sans-serif"
+        font-size="9"
+        font-weight="bold"
+      >PDF</text>
+    </svg>
+  </a>
+</p>
+        <div class="offering-grid">
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/smallTravelTrailer.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Less Than 18ft Short Towable RV Inspection</h2>
+              <div class="offering-price"><strong>$???</strong></div>
+            </div>
+          </article>
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/2515s.JPG"</img></div>
+            <div class="offering-body">
+              <h2>18ft and Longer Towable RV Inspection</h2>
+              <div class="offering-preview">
+                <strong>View Complete Sample Inspection Report (101 Pages)</strong>
+                <p>
+                  <a class="offering-pdf" href="assets/documents/MalcolmForestRiverRockwood2515sFinal.pdf" aria-label="View sample inspection report (PDF)">
+                    <svg width="28" height="32" viewBox="0 0 28 32" aria-hidden="true" focusable="false">
+                      <path d="M4 1h12l8 8v22H4z" fill="white" stroke="currentColor" stroke-width="2"/>
+                      <path d="M16 1v8h8" fill="none" stroke="currentColor" stroke-width="2"/>
+                      <rect x="0" y="14" width="28" height="13" rx="2" fill="currentColor"/>
+                      <text x="14" y="24" text-anchor="middle" fill="white" font-family="sans-serif" font-size="9" font-weight="bold">PDF</text>
+                    </svg>
+                  </a>
+                </p>
+              </div>
+              <div class="offering-price"><strong>$???</strong></div>
+            </div>
+          </article>
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/5thWheel.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Fifth-Wheel RV Inspection</h2>
+              <div class="offering-price">
+                <div>Regular price <del>$???</del></div>
+                <div class="offering-sale">Sale price <strong>$???</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/ClassC.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Class C RV Inspection</h2>
+              <div class="offering-price">
+                <div>Regular price <del>$???</del></div>
+                <div class="offering-sale">Sale price <strong>$???</strong></div>
+              </div>
+            </div>
+          </article>
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/SuperC.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Super C RV Inspection</h2>
+              <div class="offering-price">
+                <div>Regular price <del>$???</del></div>
+                <div class="offering-sale">Sale price <strong>$???</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/ClassB.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Class B RV Inspection</h2>
+              <div class="offering-price">
+                <div>Regular price <del>$???</del></div>
+                <div class="offering-sale">Sale price <strong>$???</strong></div>
+              </div>
+            </div>
+          </article>
+
+          <article class="offering-card">
+            <div class="offering-photo" aria-hidden="true"><img src="assets/images/ClassA.jpg"</img></div>
+            <div class="offering-body">
+              <h2>Class A RV Inspection</h2>
+              <div class="offering-price">
+                <div>Regular price <del>$???</del></div>
+                <div class="offering-sale">Sale price <strong>$???</strong></div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted inner-page-cta">
+      <div class="container narrow">
+        <p class="eyebrow">Questions about your RV?</p>
+        <h2>Let's talk about how I can help.</h2>
+        <p>Practical answers, clear explanations, and guidance tailored to your RV.</p>
+        <a class="button" href="index.html#contact">Contact Professor Jerry</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Professor Jerry RV</strong>
+        <p>Helping RV Owners Understand Their RV.</p>
+      </div>
+      <div>
+        <strong>Explore</strong>
+        <a href="index.html#about">About</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#contact">Contact</a>
+      </div>
+      <div>
+        <strong>Policies</strong>
+        <a href="privacy.html">Privacy policy</a>
+        <a href="code-of-ethics.html">Code of ethics</a>
+        <a href="advertising.html">Advertising disclosure</a>
+      </div>
+      <div>
+        <strong>Connect</strong>
+        <a href="mailto:info@ProfessorJerryRV.com">Email Professor Jerry</a>
+        <a href="tel:+15125229050">(512) 522-9050</a>
+        <a href="https://AtlasRV.solutions" target="_blank" rel="noopener noreferrer">Atlas RV Solutions</a>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span>Â© <span data-year>2026</span> Professor Jerry RV</span>
+      <span>Helping RV Owners Understand Their RV.</span>
+    </div>
+  </footer>
+  <script src="assets/js/site.js"></script>
+</body>
+</html>
