@@ -35,6 +35,22 @@
                         </goals>
                         <configuration>
                             <target>
+                            <echo message="Syncing images to ${image.deploy.dir}"/>
+
+<exec executable="wsl.exe" failonerror="true">
+    <arg value="-d"/>
+    <arg value="Ubuntu"/>
+    <arg value="--exec"/>
+    <arg value="rsync"/>
+    <arg value="-rtO"/>
+    <arg value="--checksum"/>
+    <arg value="--itemize-changes"/>
+    <arg value="--delay-updates"/>
+    <arg value="-e"/>
+    <arg value="ssh -o BatchMode=yes"/>
+    <arg value="/mnt/s/Repositories/ProfessorJerryRV/jwm/webapps/ROOT/src/main/webapp/assets/images/"/>
+    <arg value="lightsail-deploy:${image.deploy.dir}"/>
+</exec>
                             <echo>Deploying ${project.name} (${project.build.directory}/${project.build.finalName}.war) to ${domain.url}/manager/text/deploy?path=/${project.name}&amp;update=true</echo>
                                 <exec executable="curl">
                                     <arg value="-u" />

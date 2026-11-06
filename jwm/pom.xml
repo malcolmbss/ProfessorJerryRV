@@ -16,6 +16,7 @@
 			<properties>
 				<domain.name>professorjerryrv.com</domain.name>
 				<domain.url>https://staging.${domain.name}</domain.url>
+				<image.deploy.dir>/var/domains/staging.professorjerryrv.com/shared/images/</image.deploy.dir>
 				<tomcatAdminCredentials>rv-deploy:NRVTA@Athens,Tx</tomcatAdminCredentials>
 				<env>${domain.name}Staging</env>
 				<base.dir>s:/repositories/professorjerryrv.com/jwm</base.dir>
@@ -27,6 +28,7 @@
 			<properties>
 				<domain.name>professorjerryrv.com</domain.name>
 				<domain.url>https://${domain.name}</domain.url>
+				<image.deploy.dir>/var/domains/professorjerryrv.com/shared/images/</image.deploy.dir>
 				<tomcatAdminCredentials>rv-deploy:NRVTA@Athens,Tx</tomcatAdminCredentials>
 				<env>${domain.name}Prod</env>
 				<base.dir>s:/repositories/professorjerryrv.com/jwm</base.dir>
