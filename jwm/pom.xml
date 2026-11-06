@@ -10,10 +10,13 @@
 	<profiles>
 		<profile>
 			<id>staging</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
 			<properties>
 				<domain.name>professorjerryrv.com</domain.name>
-				<domain.url>staging.${domain.name}</domain.url>
-				<tomcatAdminCredentials>xxxx:yyyy</tomcatAdminCredentials>
+				<domain.url>https://staging.${domain.name}</domain.url>
+				<tomcatAdminCredentials>rv-deploy:NRVTA@Athens,Tx</tomcatAdminCredentials>
 				<env>${domain.name}Staging</env>
 				<base.dir>s:/repositories/professorjerryrv.com/jwm</base.dir>
 				<local.domain.directory>s:/domains/${domain.name}</local.domain.directory>
@@ -23,8 +26,8 @@
 			<id>prod</id>
 			<properties>
 				<domain.name>professorjerryrv.com</domain.name>
-				<domain.url>www.${domain.name}</domain.url>
-				<tomcatAdminCredentials>xxxx:yyyy</tomcatAdminCredentials>
+				<domain.url>https://${domain.name}</domain.url>
+				<tomcatAdminCredentials>rv-deploy:NRVTA@Athens,Tx</tomcatAdminCredentials>
 				<env>${domain.name}Prod</env>
 				<base.dir>s:/repositories/professorjerryrv.com/jwm</base.dir>
 				<local.domain.directory>s:/domains/${domain.name}</local.domain.directory>
@@ -135,6 +138,7 @@
 					<version>3.4.0</version>
 					<configuration>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
+						<packagingExcludes>assets/images/**</packagingExcludes>
 					</configuration>
 				</plugin>
 				<plugin>
