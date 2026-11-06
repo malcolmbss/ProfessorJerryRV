@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="maven-antrun-" default="main">
+  <target name="main">
+    <echo>Deploying ROOT (S:\Repositories\ProfessorJerryRV\jwm\webapps\ROOT\target/ROOT-1.0-SNAPSHOT.war) to http://staging.professorjerryrv.com/manager/text/deploy?path=/ROOT&amp;update=true</echo>
+    <exec executable="curl">
+      <arg value="-u" />
+      <arg value="Admin:ten10Twenty!" />
+      <arg value="--upload-file" />
+      <arg value="S:\Repositories\ProfessorJerryRV\jwm\webapps\ROOT\target/ROOT-1.0-SNAPSHOT.war" />
+      <arg value="http://staging.professorjerryrv.com/manager/text/deploy?path=/ROOT&amp;update=true" />
+    </exec>
+  </target>
+</project>

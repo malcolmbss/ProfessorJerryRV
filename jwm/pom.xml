@@ -9,24 +9,24 @@
 
 	<profiles>
 		<profile>
-			<id>local</id>
+			<id>staging</id>
 			<properties>
-				<domain.name>LifeFamily.resources</domain.name>
-				<domain.url>local.${domain.name}</domain.url>
-				<tomcatAdminCredentials>Admin:ten10Twenty!</tomcatAdminCredentials>
-				<env>${domain.name}Local</env>
-				<base.dir>s:/repositories/jwmbos_jakarta/jwm</base.dir>
+				<domain.name>professorjerryrv.com</domain.name>
+				<domain.url>staging.${domain.name}</domain.url>
+				<tomcatAdminCredentials>xxxx:yyyy</tomcatAdminCredentials>
+				<env>${domain.name}Staging</env>
+				<base.dir>s:/repositories/professorjerryrv.com/jwm</base.dir>
 				<local.domain.directory>s:/domains/${domain.name}</local.domain.directory>
 			</properties>
 		</profile>
 		<profile>
-			<id>dev</id>
+			<id>prod</id>
 			<properties>
-				<domain.name>LifeFamily</domain.name>
-				<domain.url>${domain.name}.net</domain.url>
-				<tomcatAdminCredentials>Admin:ten10Twenty!</tomcatAdminCredentials>
-				<env>${domain.name}Dev</env>
-				<base.dir>s:/repositories/jwmbos_jakarta/jwm</base.dir>
+				<domain.name>professorjerryrv.com</domain.name>
+				<domain.url>www.${domain.name}</domain.url>
+				<tomcatAdminCredentials>xxxx:yyyy</tomcatAdminCredentials>
+				<env>${domain.name}Prod</env>
+				<base.dir>s:/repositories/professorjerryrv.com/jwm</base.dir>
 				<local.domain.directory>s:/domains/${domain.name}</local.domain.directory>
 			</properties>
 		</profile>
@@ -134,7 +134,7 @@
 					<artifactId>maven-war-plugin</artifactId>
 					<version>3.4.0</version>
 					<configuration>
-						<failOnMissingWebXml>true</failOnMissingWebXml>
+						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
 				<plugin>
@@ -168,7 +168,7 @@
 					<artifactId>maven-antrun-plugin</artifactId>
 					<version>3.1.0</version>
 					<executions>
-						<execution>
+						<!-- <execution>
 							<id>rexx-autogen</id>
 							<phase>generate-sources</phase>
 							<goals>
@@ -182,7 +182,7 @@
 									</ant>
 								</target>
 							</configuration>
-						</execution>
+						</execution> -->
 					</executions>
 				</plugin>
 				
@@ -194,7 +194,7 @@
 				<artifactId>maven-antrun-plugin</artifactId>
 					
 				<executions>
-					<execution>
+					<!-- <execution>
 						<id>rexx-autogen</id>
 						<phase>generate-sources</phase>
 						<goals>
@@ -208,7 +208,7 @@
 								</ant>
 							</target>
 						</configuration>
-					</execution>
+					</execution> -->
 				</executions>
 			</plugin>
 				
@@ -217,7 +217,7 @@
 				<artifactId>build-helper-maven-plugin</artifactId>
 				<version>3.6.0</version>
 				<executions>
-					<execution>
+					<!-- <execution>
 						<phase>generate-sources</phase>
 						<goals>
 							<goal>add-source</goal>
@@ -227,23 +227,13 @@
 								<source>target/generated-sources/java/</source>
 							</sources>
 						</configuration>
-					</execution>
+					</execution> -->
 				</executions>
 			</plugin>
 		</plugins>
 	</build>
 
 	<modules>
-		<module>ROOT</module>
-		<module>common</module>
-		<module>calendarmgr</module>
-		<module>coreinterfaces</module>
-		<module>interfaces</module>
-		<module>coreSvcImpl</module>
-		<module>svcImpl</module>
-		<module>taglib</module>
-		<module>projectsvcs</module>
-		<module>webstatic</module>
-		<module>webapps</module>
+		<module>webapps/ROOT</module>
 	</modules>
 </project>
