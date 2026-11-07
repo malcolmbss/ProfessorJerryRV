@@ -207,69 +207,167 @@
     </section>
     <section class="section">
       <div class="container inner-page-content">
-        <p class="lead">Personalized One-on-One Offerings</p>
-        <div class="offering-grid">
+                <h2>One-on-One Training</h2>
+<style>
+  .one-on-one-content {
+    max-width: 1200px;
+  }
 
-          <article class="offering-card">
-            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/walkthru.png" </img></div>
-            <div class="offering-body">
-              <h2>Personalized RV Complete Training Walk Through</h2>
-              <p>When you purchase an RV, the dealer may provide a brief new-customer walk through of your vehicle.
-                Where this is an advantage over not getting a walk through at all, many RVers (including me...) report
-                the walk through
-                was quick, a bit haphazard, and forgot to mention several important items that would have been valuable
-                for a new owner to know and understand. With this service offering by Professor Jerry RV, I will
-                research
-                your specific year/make/model/floorplan RV and all of its unique systems in advance of our meeting
-                precisely as I would do in prep for a full inspection. I will create
-                a printed itemized list of every item in your RV that I believe you need to understand. For an
-                additional
-                fee, I will video the entire walk through and will produce and deliver on USB individually labeled
-                how-to video clips for
-                all of the line items covered in the walk through.
-              <p>Prices are listed as: <br><b>[walk-thru] / [including videos]</b>
-              <div class="offering-price"><strong>$??? / $???</strong> Small Trailer (<18ft)< /div>
-                  <div class="offering-price"><strong>$??? / $???</strong> Large Trailer (18ft+)</div>
-                  <div class="offering-price"><strong>$??? / $???</strong> Fifth Wheel</div>
-                  <div class="offering-price"><strong>$??? / $???</strong> Class C</div>
-                  <div class="offering-price"><strong>$??? / $???</strong> Super C</div>
-                  <div class="offering-price"><strong>$??? / $???</strong> Class B</div>
-                  <div class="offering-price"><strong>$??? / $???</strong> Class A</div>
-              </div>
-          </article>
+  .one-on-one-offerings {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
 
-          <article class="offering-card">
-            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/consulting.png" </img></div>
-            <div class="offering-body">
-              <h2>RV Consulting / Diagnosing Problems</h2>
-              <p>This offering is one-on-one Q & A regarding just about any topic I can help you with related to RVing.
-                This also applies to diagnosing problems with your RV.
-              </p>
-              <p>
-                Since many RV owners are DIYers,
-                I am also available as an experienced onsite mentor to the DIYer while they make repairs or upgrades to
-                their own RV.
-              </p>
-              <p>
-                Servicing any problems myself that are detected during any problem diagnosis will be a second charge.
-              </p>
-              <div class="offering-price"><strong>$75</strong> per hour
-                <br><strong>+$40</strong> trip charge
-              </div>
-            </div>
-          </article>
+  .one-on-one-offerings > .offering-card {
+    min-width: 0;
+  }
 
-        </div>
-      </div>
-    </section>
+  .one-on-one-offerings .offering-body {
+    padding: clamp(1rem, 3vw, 2rem);
+    gap: 1rem;
+  }
+
+  .one-on-one-offerings .offering-photo {
+    aspect-ratio: auto;
+    padding: 1rem;
+    box-sizing: border-box;
+  }
+
+  .one-on-one-offerings .offering-photo img {
+    display: block;
+    width: 100%;
+    max-width: 420px;
+    max-height: 280px;
+    object-fit: contain;
+  }
+
+  .walkthrough-pricing {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1rem;
+  }
+
+  .walkthrough-pricing .rv-price-card {
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    max-width: none;
+    padding: 1rem;
+    border: 1px solid #b8cadd;
+    border-radius: 1rem;
+    background: #fff;
+    color: #102541;
+  }
+
+  .walkthrough-pricing .rv-price-card__header {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
+  }
+
+  .walkthrough-pricing .rv-price-card__image {
+    flex: 0 0 90px;
+    width: 90px;
+    height: 65px;
+    object-fit: contain;
+  }
+
+  .walkthrough-pricing .rv-price-card__header h3 {
+    margin: 0;
+    font-size: 1.1rem;
+  }
+
+  .walkthrough-pricing .rv-price-card__header p {
+    margin: 0.25rem 0 0;
+    color: #5c6b7c;
+    font-size: 0.85rem;
+  }
+
+  .walkthrough-pricing .rv-price-card__option {
+    padding: 0.85rem 0;
+    border-top: 1px solid #dce4ed;
+  }
+
+  .walkthrough-pricing .rv-price-card__option h4 {
+    margin: 0 0 0.5rem;
+    font-size: 0.95rem;
+  }
+
+  .walkthrough-pricing .rv-price-card__prices {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+  }
+
+  .walkthrough-pricing .rv-price-card__regular {
+    color: #687688;
+    font-size: 1rem;
+  }
+
+  .walkthrough-pricing .rv-price-card__current {
+    color: #b52720;
+    font-size: 1.5rem;
+    font-weight: 800;
+  }
+
+  .walkthrough-pricing .rv-price-card__total {
+    margin-top: 0.35rem;
+    color: #5c6b7c;
+    font-size: 0.8rem;
+  }
+
+  .walkthrough-sale-banner {
+    padding: 0.85rem 1rem;
+    border: 2px solid #e9b72e;
+    border-radius: 0.65rem;
+    background: #102541;
+    color: #ffe19a;
+    text-align: center;
+  }
+
+  .walkthrough-sale-banner strong {
+    display: block;
+    font-size: 1.05rem;
+  }
+
+  .walkthrough-sale-banner span {
+    display: block;
+    margin-top: 0.3rem;
+    color: #fff;
+    font-size: 0.85rem;
+  }
+
+  .one-on-one-offerings .consulting-card {
+    display: grid;
+    grid-template-columns: minmax(180px, 280px) minmax(0, 1fr);
+  }
+
+  @media (max-width: 1000px) {
+    .walkthrough-pricing {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  @media (max-width: 640px) {
+    .walkthrough-pricing,
+    .one-on-one-offerings .consulting-card {
+      grid-template-columns: minmax(0, 1fr);
+    }
+  }
+</style>
 
     <section class="section">
       <div class="container inner-page-content">
-        <p class="lead">RV Training Seminar Offerings</p>
+        <h2>Training Seminar Offerings</h2>
         <article class="offering-card seminar-card">
+          <img src="/assets/images/seminar.png" alt="Training Seminars" loading="lazy">
           <div class="offering-body">
             <h2>RV Electrical Systems</h2>
             <p>Learn how your RV gets and uses power, and how to estimate what you need for the way you camp.</p>
+            <p>Available for rallies and other RV gatherings.</p>
             <h4>Details Coming Soon</h4>
           </div>
         </article>
@@ -290,7 +388,7 @@
 
 
           <article class="offering-card">
-            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/winterizing.jpg" </img></div>
+            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/winterizing.png" </img></div>
             <div class="offering-body">
               <h2>RV Winterizing</h2>
               <p>Winterizing? We're in Texas... not Wisconsin... Correct, but think back to a few recent winters with
@@ -411,7 +509,26 @@
           recommend repairs. For motorhomes, the inspection covers the RV portion.
           Arrange a separate mechanical inspection if you want the engine evaluated.
         </p>
-
+        <section>
+          <h3>Types of Inspections</h3>
+          <p>We offer two types of inspections for each class/size of RV.</p>
+          <div class="about-portrait">
+            <img src="/assets/images/essentials.png" alt="Essentials" loading="lazy">
+          </div>
+          <p>If you do not need a full certified inspection, the Essentials Inspection is perfect for you. The price
+            will be based on the number of inspection categories omitted from the full certified inspection. You will
+            still receive a PDF report for the Essentials Inspection, noting that this is not a full certified
+            inspection report.
+            Contact us for an estimate for your RV and your specific needs.
+          </p>
+          <div class="about-portrait">
+            <img src="/assets/images/completecertified.png" alt="Complete Certified" loading="lazy">
+          </div>
+          <p>The Complete Certified Inspection is a full inspection of every area of your RV. It is suitable for use
+            in discussions with the seller. You will receive a full PDF report.
+          </p>
+        </section>
+        <h3 style="clear: both;">Inspection Report Documentation</h3>
         <p>
           To get an idea of what you'll receive, take a look at the inspection report I prepared
           on my own Forest River Rockwood MiniLite 2515S for my <b>National RV Inspectors Academy</b> final exam.
