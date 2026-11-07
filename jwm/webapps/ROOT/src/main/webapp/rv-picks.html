@@ -12,93 +12,8 @@
     rel="stylesheet">
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" type="image/png" href="/favicon.png">
-  <style>
-    .picks-title {
-      color: #0b203b;
-    }
-
-    .picks-grid {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr);
-      gap: 1rem;
-    }
-
-    @media (min-width: 38rem) {
-      .picks-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-      }
-    }
-
-    @media (min-width: 60rem) {
-      .picks-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-      }
-    }
-
-    @media (min-width: 82rem) {
-      .picks-grid {
-        grid-template-columns: repeat(4, minmax(0, 1fr));
-      }
-    }
-
-    .pick-card {
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-      background: #eaf1f8;
-      border: 1px solid #b8cadc;
-    }
-
-    .pick-card .partner-body {
-      display: flex;
-      flex: 1;
-      flex-direction: column;
-      align-items: flex-start;
-      gap: 0.65rem;
-      padding: 1rem;
-      font-size: 0.92rem;
-    }
-
-    .pick-card .partner-body p,
-    .pick-card .partner-body h2,
-    .pick-assessment h3 {
-      margin: 0;
-    }
-
-    .pick-card .partner-body h2 {
-      font-size: 1.15rem;
-      line-height: 1.3;
-    }
-
-    .pick-assessment {
-      padding: 0.75rem;
-      background: #fff;
-      border-radius: 0.5rem;
-    }
-
-    .pick-assessment h3 {
-      font-size: 1rem;
-      margin-bottom: 0.3rem;
-    }
-
-    .pick-card .button {
-      margin-top: auto;
-    }
-
-    .pick-photo {
-      display: block;
-      width: 100%;
-      aspect-ratio: 3 / 2;
-      object-fit: contain;
-      background: #dce7f2;
-    }
-
-    .pick-photo-placeholder {
-      display: grid;
-      height: 100%;
-      place-items: center;
-    }
-  </style>
+  
+  <link rel="stylesheet" href="assets/css/rv-picks.css">
 </head>
 
 <body>
@@ -137,7 +52,7 @@
         <p>I do not receive payment or commissions for these recommendations. They are strictly from my personal
           experiences.</p>
       </div>
-      <div style="border: 2px black; width:100%; text-align:center">
+      <div class="picks-inline-1">
         <h3>New Amazon RV Picks Added Weekly</h3>
       </div>
       <div class="picks-grid">
@@ -267,7 +182,7 @@
                 You will have to pull hard. Honestly, if comes out too easily I'd recommend a qualified technician take
                 a look at it to prevent it accidentally coming out on a big bump in the road. So snap it out and snap
                 the new one in. <b>
-                  <font style="color:red">Warning</font>
+                  <font class="picks-inline-2">Warning</font>
                 </b> Do not leave the clip out of the switch for a long period of time.
                 Replace the clip immediately. While the clip is out, your emergency brakes on all RV wheels are engaged.
                 Leaving them engaged for long periods of time could damage the brake motors or even burn them out. Plus
@@ -296,7 +211,7 @@
             <aside aria-labelledby="water-hose-take" class="pick-assessment">
               <h3 id="water-hose-take">Jerry&#x2019;s take</h3>
               <p>I did not buy this. One came on my new RV. It never occurred to me that an item like this
-                was not standard equipment on all RVs, until a few weeks ago when a rookie camper the next site over pulled up with
+                was not standard equipment on all RVs.  That is until a few weeks ago when a rookie camper the next site over pulled up with
                 a fancy new top-of-the-line RV. I was explaining a few things to him on my RV and pointed
                 out the importance of getting the chains and 7-way plug organized and off the ground immediately after
                 disconnecting from the tow vehicle to prevent the chains getting tangled or the 7-way cable from getting
