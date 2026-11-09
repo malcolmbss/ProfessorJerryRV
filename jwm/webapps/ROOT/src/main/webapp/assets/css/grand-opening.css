@@ -20,15 +20,16 @@
   gap: .75rem;
   padding: 1rem;
 }
-.grand-opening-popup__actions button, .grand-opening-trigger {
+.grand-opening-popup__actions button {
   font: inherit;
   cursor: pointer;
 }
-.grand-opening-trigger {
+.button-gold {
   border: 2px solid #e9b72e;
   background: #102541;
-  color: #ffe19a;
+
 }
+.button-gold:hover { background: #1d385a; }
 
 
 .grand-opening-popup::backdrop { animation: sale-backdrop-in 1100ms ease both; }

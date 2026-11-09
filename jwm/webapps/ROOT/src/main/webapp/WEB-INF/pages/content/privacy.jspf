@@ -3,5 +3,5 @@
 
     <%@ include file="/WEB-INF/privacy/details.jspf" %>
 
-    <%@ include file="/WEB-INF/privacy/contact-cta.jspf" %>
+    <%@ include file="/WEB-INF/shared/contact-cta.jspf" %>
 </main>

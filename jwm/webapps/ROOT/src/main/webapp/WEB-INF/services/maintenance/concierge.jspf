@@ -32,15 +32,7 @@
               <p>Service is available in the Austin area, the Texas Hill Country, San Antonio, and parts of South Texas.
                 Contact me to confirm availability at your storage location.</p>
 
-              <div class="offering-price"><span class="service-price-pair">
-                  <s class="service-price-regular" data-regular-price="149" data-sale-target="service-sale-19"><span
-                      class="sr-only">Regular price
-                    </span><span data-regular-amount>$149</span></s>per monthly visit.
-                  <br>
-                  <span class="rv-sale-price">
-                    <strong class="service-price-current" id="service-sale-19"><span class="sr-only">Sale price
-                      </span><span data-sale-amount>$119</span></strong><span
-                      class="grand-opening-mini">Grand<br>Opening</span></span></span> per month for 1st three visits.
+              <div class="offering-price"><rv:price regular="149" discount="<%= GRAND_OPENING_PERCENT %>" regularNote="per monthly visit." /> per month for 1st three visits.
                 <!-- Original wording
 per Monthly Visit (Client approves each month in
 

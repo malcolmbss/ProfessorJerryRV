@@ -1,5 +1,6 @@
 <%@ page pageEncoding="UTF-8" contentType="text/html; charset=UTF-8" isELIgnored="true" %>
 <% boolean homePage = true; boolean picksPage = false; %>
+<%@ include file="/WEB-INF/shared/grand-opening.jspf" %>
 <%@ include file="/WEB-INF/shared/head-start.jspf" %>
 <%@ include file="/WEB-INF/heads/index.jspf" %>
 <link rel="stylesheet" href="assets/css/topic-picker.css">

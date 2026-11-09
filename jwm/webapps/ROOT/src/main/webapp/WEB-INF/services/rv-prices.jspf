@@ -1,0 +1,15 @@
+<%!
+    // Edit RV types and their regular prices here. Sale prices are calculated from these values.
+    private record RvPrice(String id, String image, String name, String detail,
+                           String inspectionTitle, int walkthrough, int walkthroughVideo, int inspection) {}
+
+    private static final java.util.List<RvPrice> RV_PRICES = java.util.List.of(
+        new RvPrice("small-trailer", "/assets/images/smalltraveltrailer.jpg", "Small Trailer", "Under 18 feet", "Travel Trailer Inspection -- Under 18 Feet", 229, 349, 749),
+        new RvPrice("large-trailer", "/assets/images/2515s.jpg", "Large Trailer", "18 feet and longer", "Travel Trailer Inspection -- 18 Feet and Longer", 329, 469, 849),
+        new RvPrice("fifth-wheel", "/assets/images/5thwheel.jpg", "Fifth Wheel", "", "Fifth-Wheel RV Inspection", 429, 599, 949),
+        new RvPrice("class-c", "/assets/images/classc.jpg", "Class C", "Motorhome", "Class C RV Inspection", 429, 599, 1049),
+        new RvPrice("super-c", "/assets/images/superc.jpg", "Super C", "Motorhome", "Super C RV Inspection", 479, 629, 1099),
+        new RvPrice("class-b", "/assets/images/classb.jpg", "Class B", "Motorhome", "Class B RV Inspection", 329, 469, 749),
+        new RvPrice("class-a", "/assets/images/classa.jpg", "Class A", "Motorhome", "Class A RV Inspection", 579, 779, 1299)
+    );
+%>

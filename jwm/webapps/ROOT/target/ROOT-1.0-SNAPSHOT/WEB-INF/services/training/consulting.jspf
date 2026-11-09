@@ -22,17 +22,6 @@
 -->
               <p>The consulting fee covers advice and troubleshooting. Any repair work I perform is charged separately.
               </p>
-              <div class="offering-price"><span class="service-price-pair"><s class="service-price-regular"
-                    data-regular-price="75" data-sale-target="service-sale-15"><span class="sr-only">Regular price
-                    </span><span data-regular-amount>$75</span></s><span class="rv-sale-price"><strong
-                      class="service-price-current" id="service-sale-15"><span class="sr-only">Sale price </span><span
-                        data-sale-amount>$60</span></strong><span
-                      class="grand-opening-mini">Grand<br>Opening</span></span></span> per hour<br><span
-                  class="service-price-pair"><s class="service-price-regular" data-regular-price="40"
-                    data-sale-target="service-sale-16" data-price-prefix="+"><span class="sr-only">Regular price
-                    </span><span data-regular-amount>+$40</span></s><span class="rv-sale-price"><strong
-                      class="service-price-current" id="service-sale-16"><span class="sr-only">Sale price </span><span
-                        data-sale-amount>+$32</span></strong><span
-                      class="grand-opening-mini">Grand<br>Opening</span></span></span> trip charge</div>
+              <div class="offering-price"><rv:price regular="75" discount="<%= GRAND_OPENING_PERCENT %>" /> per hour<br><rv:price regular="40" discount="<%= GRAND_OPENING_PERCENT %>" prefix="+" /> trip charge</div>
             </div>
           </article>

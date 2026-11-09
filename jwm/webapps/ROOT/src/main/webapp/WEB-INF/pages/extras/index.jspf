@@ -33,7 +33,7 @@
 
   <dialog class="grand-opening-popup" id="grand-opening-popup" aria-label="Professor Jerry RV Grand Opening Sale">
     <img class="grand-opening-popup__image" src="/assets/images/grandopeningsale.png"
-      alt="Professor Jerry RV Grand Opening Sale. 20% off most services through December 31, 2026. See individual services for details."
+      alt="Professor Jerry RV Grand Opening Sale. <%= GRAND_OPENING_PERCENT %>% off most services through <%= GRAND_OPENING_END %>. See individual services for details."
       width="1536" height="1024">
     <div class="grand-opening-popup__actions">
       <a class="button button-small" href="/index.html#services">View services and sale prices</a>

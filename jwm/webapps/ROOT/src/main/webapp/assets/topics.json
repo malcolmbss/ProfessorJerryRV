@@ -8,7 +8,11 @@
     "href": "index.html#about"
   },
   {
-    "label": "Story Behind the Professor Jerry Name",
+    "label": "The Story Behind the Professor Jerry Name",
+    "href": "about.html"
+  },
+  {
+    "label": "Meet Professor Jerry",
     "href": "about.html"
   },
   {
@@ -17,6 +21,10 @@
   },
   {
     "label": "Amazon RV Picks",
+    "href": "index.html#rv-picks"
+  },
+  {
+    "label": "Jerry's Takes on Amazon RV Picks",
     "href": "index.html#rv-picks"
   },
   {
@@ -64,7 +72,7 @@
     "href": "index.html#testimonials"
   },
   {
-    "label": "De-Winterizing",
+    "label": "De-Winterizing (Pricing)",
     "href": "services.html#de-winterizing"
   },
   {
@@ -72,8 +80,12 @@
     "href": "services.html#inspect-fifth-wheel"
   },
   {
-    "label": "Fresh Water Tank Sanitizing",
+    "label": "Fresh Water Tank Sanitizing (Pricing)",
     "href": "services.html#sanitizing"
+  },
+  {
+    "label": "Grand Opening Sale 20% Discount Through December 31, 2026",
+    "href": "services.html#grand-opening-sale"
   },
   {
     "label": "Home",
@@ -93,7 +105,7 @@
   },
   {
     "label": "Personalized RV Training Walkthrough (Pricing)",
-    "href": "hrefs.html#walkthrough"
+    "href": "services.html#walkthrough"
   },
   {
     "label": "Personalized RV Training Walkthrough With Video Recording (Pricing)",

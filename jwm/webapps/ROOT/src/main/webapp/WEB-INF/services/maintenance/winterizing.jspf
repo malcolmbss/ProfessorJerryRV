@@ -18,22 +18,12 @@
 
               <div class="offering-price">
                 <h4 style="margin-bottom:5px; margin-top:5px">Winterizing </h4>
-                <span class="service-price-pair"><s class="service-price-regular" data-regular-price="199"
-                    data-sale-target="service-sale-17"><span class="sr-only">Regular price </span><span
-                      data-regular-amount>$199*</span></s><span class="rv-sale-price"><strong
-                      class="service-price-current" id="service-sale-17"><span class="sr-only">Sale price
-                      </span><span data-sale-amount>$159</span>*</strong><span
-                      class="grand-opening-mini">Grand<br>Opening</span></span></span>
+                <rv:price regular="199" discount="<%= GRAND_OPENING_PERCENT %>" suffix="*" />
               </div>
 
               <div class="offering-price">
                 <h4 style="margin-bottom:5px; margin-top:5px" id="de-winterizing">De-Winterizing</h4>
-                <span class="service-price-pair"><s class="service-price-regular" data-regular-price="199"
-                    data-sale-target="service-sale-18"><span class="sr-only">Regular price </span><span
-                      data-regular-amount>$199*</span></s><span class="rv-sale-price"><strong
-                      class="service-price-current" id="service-sale-18"><span class="sr-only">Sale price
-                      </span><span data-sale-amount>$159</span>*</strong><span
-                      class="grand-opening-mini">Grand<br>Opening</span></span></span><br>(25% discount plus free fresh
+                <rv:price regular="199" discount="<%= GRAND_OPENING_PERCENT %>" suffix="*" /><br>(25% discount plus free fresh
                 tank sanitizing if we did the winterizing)
               </div>
 

@@ -332,7 +332,8 @@ main > .section h1 {
     }
 }
 
-label.service-discount-checkbox {
+label.service-discount-checkbox,
+.contact-form label.service-discount-checkbox {
   display: flex;
   align-items: center;
   gap: .5rem;
@@ -340,5 +341,42 @@ label.service-discount-checkbox {
 
 label.service-discount-checkbox input[type="checkbox"] {
   width: auto;
+  padding: 0;
   margin: 0;
+}
+
+/* Shared interior-page layout */
+.inner-page-heading {
+  padding: 4.5rem 0 3rem;
+  background: #f4f6f8;
+}
+
+.inner-page-heading h1 {
+  margin: .5rem 0 1rem;
+  max-width: 850px;
+  color: var(--navy, #143A63);
+}
+
+.inner-page-heading p:last-child {
+  max-width: 720px;
+}
+
+.inner-page-content {
+  max-width: 850px;
+}
+
+.inner-page-content h2 {
+  margin-top: 2rem;
+}
+
+.inner-page-content p {
+  line-height: 1.8;
+}
+
+.inner-page-cta {
+  text-align: center;
+}
+
+.inner-page-cta .button {
+  margin-top: 1rem;
 }

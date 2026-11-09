@@ -188,34 +188,12 @@
           </a>
 <h3 class="services-inline-4" id="inspection-prices">Inspection Pricing</h3>
         </p>
-              <div class="walkthrough-sale-banner">
-                <strong>GRAND OPENING SALE &middot; 20% OFF</strong>
-                <span>Through <strong>December 31, 2026</strong>See individual prices below</span>
-              </div>
+              <% { String saleBannerId = "inspection-grand-opening-sale"; String saleBannerDetails = "See individual prices below"; %>
+<%@ include file="/WEB-INF/services/sale-banner.jspf" %>
+<% } %>
         <div class="offering-grid">
 
-          <%@ include file="/WEB-INF/services/inspections/small-trailer.jspf" %>
-
-
-
-          <%@ include file="/WEB-INF/services/inspections/large-trailer.jspf" %>
-
-
-
-          <%@ include file="/WEB-INF/services/inspections/fifth-wheel.jspf" %>
-
-
-
-          <%@ include file="/WEB-INF/services/inspections/class-c.jspf" %>
-
-          <%@ include file="/WEB-INF/services/inspections/super-c.jspf" %>
-
-
-          <%@ include file="/WEB-INF/services/inspections/class-b.jspf" %>
-
-
-
-          <%@ include file="/WEB-INF/services/inspections/class-a.jspf" %>
+          <%@ include file="/WEB-INF/services/inspection-cards.jspf" %>
 
         </div>
 

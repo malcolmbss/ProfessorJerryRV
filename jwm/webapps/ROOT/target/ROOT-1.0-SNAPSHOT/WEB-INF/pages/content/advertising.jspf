@@ -3,5 +3,5 @@
 
     <%@ include file="/WEB-INF/advertising/details.jspf" %>
 
-    <%@ include file="/WEB-INF/advertising/contact-cta.jspf" %>
+    <%@ include file="/WEB-INF/shared/contact-cta.jspf" %>
 </main>
