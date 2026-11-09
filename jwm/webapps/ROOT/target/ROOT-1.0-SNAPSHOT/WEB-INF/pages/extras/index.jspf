@@ -12,6 +12,7 @@
           ["Email", "email"],
           ["Phone", "phone"],
           ["Service", "service"],
+          ["Veteran or first responder", "service-discount"],
           ["RV manufacturer", "manufacturer"],
           ["RV series", "series"],
           ["RV model number", "model"],

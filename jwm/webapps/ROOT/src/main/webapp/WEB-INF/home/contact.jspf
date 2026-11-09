@@ -38,6 +38,7 @@
             <input type="text" name="model-year" inputmode="numeric" pattern="[0-9]{4}" maxlength="4"
               placeholder="ex: 2025">
           </label>
+          <%@ include file="/WEB-INF/shared/service-discount-checkbox.jspf" %>
           <label class="full-width">Message<textarea name="message" rows="5" required></textarea></label>
           <button class="button full-width" type="submit">Prepare email</button>
         </form>

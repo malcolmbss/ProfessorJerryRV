@@ -40,7 +40,27 @@
     "href": "index.html#contact"
   },
   {
+    "label": "Professor Jerry's Phone Number",
+    "href": "index.html#contact"
+  },
+  {
+    "label": "Professor Jerry's Email Address",
+    "href": "index.html#contact"
+  },
+  {
+    "label": "Austin & Central Texas",
+    "href": "index.html#contact"
+  },
+  {
+    "label": "Location",
+    "href": "index.html#contact"
+  },
+  {
     "label": "Customer Testimonials",
+    "href": "index.html#testimonials"
+  },
+  {
+    "label": "Customer Reviews",
     "href": "index.html#testimonials"
   },
   {
@@ -72,7 +92,11 @@
     "href": "services.html#one-on-one"
   },
   {
-    "label": "Personalized RV Training Walkthrough",
+    "label": "Personalized RV Training Walkthrough (Pricing)",
+    "href": "hrefs.html#walkthrough"
+  },
+  {
+    "label": "Personalized RV Training Walkthrough With Video Recording (Pricing)",
     "href": "services.html#walkthrough"
   },
   {
@@ -80,11 +104,11 @@
     "href": "index.html#partners"
   },
   {
-    "label": "RV Concierge Service",
+    "label": "RV Concierge Service (Pricing)",
     "href": "services.html#concierge"
   },
   {
-    "label": "RV Consulting & Troubleshooting",
+    "label": "RV Consulting & Troubleshooting (Pricing)",
     "href": "services.html#consulting"
   },
   {
@@ -108,7 +132,7 @@
     "href": "index.html#service"
   },
   {
-    "label": "RV Training",
+    "label": "RV Training (Pricing)",
     "href": "services.html#training"
   },
   {
@@ -120,7 +144,7 @@
     "href": "services.html#seminars"
   },
   {
-    "label": "RV Winterizing",
+    "label": "RV Winterizing (Pricing)",
     "href": "services.html#winterizing"
   },
   {
@@ -136,11 +160,11 @@
     "href": "services.html#inspect-super-c"
   },
   {
-    "label": "Travel Trailer Inspection – 18 Feet and Longer",
+    "label": "Travel Trailer Inspection \u2013 18 Feet and Longer",
     "href": "services.html#inspect-large-trailer"
   },
   {
-    "label": "Travel Trailer Inspection – Under 18 Feet",
+    "label": "Travel Trailer Inspection \u2013 Under 18 Feet",
     "href": "services.html#inspect-small-trailer"
   },
   {
@@ -154,5 +178,29 @@
   {
     "label": "Why Choose a Certified RV Inspector?",
     "href": "services.html#certified-inspector"
+  },
+  {
+    "label": "TraXion Tailgate Ladder XL (Amazon Pick)",
+    "href": "rv-picks.html#tailgate-ladder"
+  },
+  {
+    "label": "Camco EvoFlex2 Drinking Water Hose (Amazon Pick)",
+    "href": "rv-picks.html#water-hose"
+  },
+  {
+    "label": "Trailer Wheel Lock (Amazon Pick)",
+    "href": "rv-picks.html#wheel-lock"
+  },
+  {
+    "label": "Trailer Breakaway Brake Cable (Amazon Pick)",
+    "href": "rv-picks.html#breakaway-cable"
+  },
+  {
+    "label": "Aluminum RV Towing Chain Organizer (Amazon Pick)",
+    "href": "rv-picks.html#towing-chain-organizer"
+  },
+  {
+    "label": "Veterans & First Responders Discount",
+    "href": "veterans-first-responders.html"
   }
 ]

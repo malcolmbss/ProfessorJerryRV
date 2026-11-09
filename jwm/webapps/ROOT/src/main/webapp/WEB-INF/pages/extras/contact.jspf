@@ -9,6 +9,7 @@
       const details = [
         ["Name", "name"],
         ["Email", "email"],
+        ["Veteran or first responder", "service-discount"],
         ["Manufacturer", "manufacturer"],
         ["RV series", "series"],
         ["Model number", "model"],

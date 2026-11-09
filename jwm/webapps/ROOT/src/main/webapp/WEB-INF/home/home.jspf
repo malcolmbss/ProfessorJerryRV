@@ -12,6 +12,7 @@
           <a class="button button-secondary" href="#services">Explore services</a>
           <button class="button grand-opening-trigger" type="button" aria-haspopup="dialog"
             aria-controls="grand-opening-popup" data-sale-open>Grand Opening Sale Info</button>
+          <a class="button button-dark" href="veterans-first-responders.html">Veterans/First Responders Discount</a>
         </div>
       </div>
     </section>

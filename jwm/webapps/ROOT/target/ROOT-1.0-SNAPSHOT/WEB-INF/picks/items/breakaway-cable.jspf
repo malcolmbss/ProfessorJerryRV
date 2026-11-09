@@ -1,4 +1,4 @@
-<article class="partner-card pick-card">
+<article class="partner-card pick-card" id="breakaway-cable">
           <object class="pick-photo" data="assets/images/brakecable.png" type="image/jpeg"
             aria-label="Coiled Brake Cable">
           </object>
@@ -6,6 +6,7 @@
             <p class="tag">Towing Safety</p>
             <h2>Trailer Breakaway Cable,Car Accessories Heavy Duty Stainless Steel Spring Towing Coiled Wire,Travel
               Trailer Accessories,Suitable for Trailers,RVs,Mobile Homes,Emergency,Camper (4FT-1PCS)</h2>
+            <p><a href="rv-picks.html#breakaway-cable">Link to this pick</a></p>
             <aside aria-labelledby="breakaway-cable-take" class="pick-assessment">
               <h3 id="breakaway-cable-take">Jerry&#x2019;s take</h3>
 

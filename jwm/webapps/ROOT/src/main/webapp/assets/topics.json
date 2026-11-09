@@ -93,7 +93,7 @@
   },
   {
     "label": "Personalized RV Training Walkthrough (Pricing)",
-    "hrefs.html#walkthrough"
+    "href": "hrefs.html#walkthrough"
   },
   {
     "label": "Personalized RV Training Walkthrough With Video Recording (Pricing)",
@@ -160,11 +160,11 @@
     "href": "services.html#inspect-super-c"
   },
   {
-    "label": "Travel Trailer Inspection – 18 Feet and Longer",
+    "label": "Travel Trailer Inspection \u2013 18 Feet and Longer",
     "href": "services.html#inspect-large-trailer"
   },
   {
-    "label": "Travel Trailer Inspection – Under 18 Feet",
+    "label": "Travel Trailer Inspection \u2013 Under 18 Feet",
     "href": "services.html#inspect-small-trailer"
   },
   {
@@ -198,5 +198,9 @@
   {
     "label": "Aluminum RV Towing Chain Organizer (Amazon Pick)",
     "href": "rv-picks.html#towing-chain-organizer"
+  },
+  {
+    "label": "Veterans & First Responders Discount",
+    "href": "veterans-first-responders.html"
   }
 ]

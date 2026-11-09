@@ -752,3 +752,37 @@
   font-size: 1.5rem;
   font-weight: 800;
 }
+
+/* Veterans and first responders discount */
+.service-discount {
+  display: flex;
+  align-items: flex-start;
+  gap: clamp(.65rem, 2vw, 1rem);
+  max-width: 46rem;
+  margin-top: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #b8cadc;
+  border-inline-start: .25rem solid #c18a21;
+  border-radius: .75rem;
+  background: #fff;
+  color: var(--navy, #143a63);
+}
+
+.service-discount__badge {
+  display: grid;
+  place-items: center;
+  flex: 0 0 2rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--navy, #143a63);
+  color: #ffda80;
+}
+
+.service-discount h2 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.service-discount p {
+  margin: .5rem 0 0;
+}

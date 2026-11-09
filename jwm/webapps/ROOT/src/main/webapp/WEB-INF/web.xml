@@ -33,6 +33,10 @@
     <servlet-name>advertising</servlet-name>
     <jsp-file>/WEB-INF/pages/advertising.jsp</jsp-file>
   </servlet>
+  <servlet>
+    <servlet-name>veterans-first-responders</servlet-name>
+    <jsp-file>/WEB-INF/pages/veterans-first-responders.jsp</jsp-file>
+  </servlet>
   <servlet-mapping>
     <servlet-name>index</servlet-name>
     <url-pattern>/index.html</url-pattern>
@@ -64,6 +68,10 @@
   <servlet-mapping>
     <servlet-name>advertising</servlet-name>
     <url-pattern>/advertising.html</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>veterans-first-responders</servlet-name>
+    <url-pattern>/veterans-first-responders.html</url-pattern>
   </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>

@@ -1,4 +1,4 @@
-<article class="partner-card pick-card">
+<article class="partner-card pick-card" id="tailgate-ladder">
           <object class="pick-photo" data="assets/images/tailgateladder.png" type="image/jpeg"
             aria-label="Tailgate Ladder">
           </object>
@@ -6,6 +6,7 @@
           <div class="partner-body">
             <p class="tag">Truck and Tow Vehicle Gear</p>
             <h2>TraXion Tailgate Ladder XL</h2>
+            <p><a href="rv-picks.html#tailgate-ladder">Link to this pick</a></p>
             <p>A fold-away ladder for getting into a pickup bed. The XL model has a pivoting frame designed to adjust to
               uneven ground.</p>
 

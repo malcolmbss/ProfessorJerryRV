@@ -1,4 +1,4 @@
-<article class="partner-card pick-card">
+<article class="partner-card pick-card" id="wheel-lock">
           <object class="pick-photo" data="assets/images/claws.png" type="image/jpeg"
             aria-label="2 Pcs Wheel Lock for Cars, Heavy Duty Trailer Wheel Lock Universal Security Anti Theft Tire Clamp for Vehicles Boot Camper SUV ATV Boat Motorcycle Deterrent">
           </object>
@@ -6,6 +6,7 @@
             <p class="tag">Security</p>
             <h2>2 Pcs Wheel Lock for Cars, Heavy Duty Trailer Wheel Lock Universal Security Anti Theft Tire Clamp for
               Vehicles Boot Camper SUV ATV Boat Motorcycle Deterrent</h2>
+            <p><a href="rv-picks.html#wheel-lock">Link to this pick</a></p>
             <p>
 
             </p>

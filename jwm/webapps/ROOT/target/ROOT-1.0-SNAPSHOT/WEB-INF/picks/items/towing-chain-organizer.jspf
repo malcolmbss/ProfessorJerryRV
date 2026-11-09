@@ -1,4 +1,4 @@
-<article class="partner-card pick-card">
+<article class="partner-card pick-card" id="towing-chain-organizer">
           <object class="pick-photo" data="assets/images/chaintonguecaddy.png" type="image/jpeg"
             aria-label="Tongue Chain Caddy">
           </object>
@@ -6,6 +6,7 @@
           <div class="partner-body">
             <p class="tag">Towing Gear</p>
             <h2> Aluminum RV Towing Chain Organizer</h2>
+            <p><a href="rv-picks.html#towing-chain-organizer">Link to this pick</a></p>
             <p>7 Way Trailer Plug &amp; Chain Holder
               Keeps 7-way Plug and Chains Organized,Fit 2" & 2-1/4" Tongue Jack,Heavy Duty Anti-rust Travel Trailer
               Accessories,Wider Hooks

@@ -40,7 +40,7 @@
 
   async function loadTopics() {
     loading = true;
-    showStatus("Loading topics…");
+    showStatus("Loading topics\u2026");
     try {
       const response = await fetch(new URL("assets/topics.json", siteRoot));
       if (!response.ok) throw new Error("Topic list unavailable");
@@ -64,7 +64,7 @@
       showStatus(list.children.length ? "" : "No topics available.");
       if (picker.open && document.activeElement === summary) filter.focus();
     } catch {
-      showStatus("Topics couldn’t load. Close and reopen to try again.");
+      showStatus("Topics couldn\u2019t load. Close and reopen to try again.");
     } finally {
       loading = false;
     }

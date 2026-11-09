@@ -1,4 +1,4 @@
-<article class="partner-card pick-card">
+<article class="partner-card pick-card" id="water-hose">
           <object class="pick-photo" data="assets/images/freshwaterhose.png" type="image/jpeg"
             aria-label="Fresh Water Hose">
           </object>
@@ -6,6 +6,7 @@
           <div class="partner-body">
             <p class="tag">Water and Plumbing</p>
             <h2>Camco EvoFlex2 25-ft RV Drinking Water Hose</h2>
+            <p><a href="rv-picks.html#water-hose">Link to this pick</a></p>
             <p>A 25-foot hose designed for connecting an RV to a drinking water hookup.</p>
 
             <aside aria-labelledby="water-hose-take" class="pick-assessment">

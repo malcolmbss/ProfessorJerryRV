@@ -145,7 +145,7 @@ p { margin: 0 0 18px; }
 .split-layout { display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 72px; }
 .photo-placeholder { min-height: 500px; border-radius: 28px; background: linear-gradient(145deg, #cdd6dc, #8fa0ac); display: grid; place-items: center; color: white; text-transform: uppercase; letter-spacing: .08em; font-weight: 700; box-shadow: var(--shadow); }
 .check-list { list-style: none; margin: 26px 0; padding: 0; display: grid; grid-template-columns: 1fr 1fr; gap: 12px 24px; }
-.check-list li::before { content: "✓"; color: var(--red); font-weight: 800; margin-right: 9px; }
+.check-list li::before { content: "\2713"; color: var(--red); font-weight: 800; margin-right: 9px; }
 
 .partner-grid { display: grid; grid-template-columns: 1.5fr 1fr 1fr; gap: 24px; }
 .partner-card { overflow: hidden; border: 1px solid var(--line); border-radius: var(--radius); background: white; }
@@ -330,4 +330,15 @@ main > .section h1 {
         width: 100%;
         max-width: 220px;
     }
+}
+
+label.service-discount-checkbox {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+}
+
+label.service-discount-checkbox input[type="checkbox"] {
+  width: auto;
+  margin: 0;
 }
