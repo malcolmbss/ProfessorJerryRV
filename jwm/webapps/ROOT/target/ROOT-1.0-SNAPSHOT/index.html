@@ -11,7 +11,7 @@
   <meta property="og:url" content="https://professorjerryrv.com/">
   <meta property="og:title" content="Professor Jerry RV">
   <meta property="og:description"
-    content="RV training, mobile service, and independent inspections. Helping RV owners understand their RV with confidence.">
+    content="RV training, mobile service, and independent inspections. Helping you understand your RV with confidence.">
   <meta property="og:image" content="https://professorjerryrv.com/assets/images/site-preview.png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
@@ -24,6 +24,19 @@
   <link rel="stylesheet" href="assets/css/styles.css">
   <link rel="icon" type="image/png" href="/favicon.png">
   <link rel="stylesheet" href="assets/css/grand-opening.css">
+  <style>
+    main section[id], main h3[id], #contact-form {
+      scroll-margin-top: 7rem;
+    }
+    .service-card .service-icon-link {
+      display: inline-block;
+      align-self: flex-start;
+      margin-top: 0;
+      text-decoration: none;
+    }
+    .service-icon-link .icon { display: grid; }
+    .about-art-link { display: block; }
+  </style>
 </head>
 
 <body>
@@ -53,7 +66,7 @@
   </header>
 
   <main id="main">
-    <section class="hero">
+    <section class="hero" id="home">
       <div class="hero-media" role="img"
         aria-label="Placeholder for a photograph of Professor Jerry helping an RV owner"></div>
       <div class="hero-overlay"></div>
@@ -71,7 +84,7 @@
       </div>
     </section>
 
-    <section class="trust-strip" aria-label="Service highlights">
+    <section class="trust-strip" id="highlights" aria-label="Service highlights">
       <div class="container trust-grid">
         <div><strong>Engineer-led</strong><span>Clear, methodical guidance</span></div>
         <div><strong>Owner-focused</strong><span>Teaching, not just fixing</span></div>
@@ -90,26 +103,31 @@
 
         <div class="card-grid three-column">
           <article class="service-card reveal">
-            <div class="icon" aria-hidden="true">&#x1F393;</div>
-            <h3>RV Training</h3>
+            <a class="service-icon-link" href="services.html#training" aria-label="Learn about training">
+              <span class="icon" aria-hidden="true">&#x1F393;</span>
+            </a>
+            <h3 id="training">RV Training</h3>
             <p>Hands-on orientation and patient instruction tailored to your RV, your experience level, and the way you
               travel.</p>
             <a href="services.html#training">Learn about training <span aria-hidden="true">&#x2192;</span></a>
           </article>
           <article class="service-card reveal">
-            <div class="icon" aria-hidden="true">&#x1F527;</div>
-            <h3>RV Service</h3>
+            <a class="service-icon-link" href="services.html#service" aria-label="Learn about service">
+              <span class="icon" aria-hidden="true">&#x1F527;</span>
+            </a>
+            <h3 id="service">RV Service</h3>
             <p>Practical troubleshooting, maintenance assistance, and straightforward explanations of what failed and
               why.</p>
             <a href="services.html#service">Learn about service <span aria-hidden="true">&#x2192;</span></a>
           </article>
           <article class="service-card reveal">
-            <div class="icon" aria-hidden="true">&#x2713;</div>
-            <h3>RV Inspections</h3>
+            <a class="service-icon-link" href="services.html#inspections" aria-label="Learn about inspections">
+              <span class="icon" aria-hidden="true">&#x2713;</span>
+            </a>
+            <h3 id="inspections">RV Inspections</h3>
             <center>
-
-              <img style="width:50px" src="/assets/images/nrvia-patch.png" alt="Certified RV Inspector certification"
-                loading="lazy">
+              <a href="services.html#inspections" aria-label="Learn about inspections"><img style="width:50px" src="/assets/images/nrvia-patch.png" alt="Certified RV Inspector certification"
+                loading="lazy"></a>
             </center>
             <p>Detailed, independent inspections by a <b>National RV Inspectors Association (<a target="_new"
                   href="https://nrvia.org">NRVIA)</a></b> certified inspector that help buyers and owners make informed
@@ -123,7 +141,7 @@
     <section class="section section-muted" id="about">
       <div class="container split-layout">
         <div class="photo-placeholder reveal">
-          <span><img src="/assets/images/about-certificates.png" /></span>
+          <a class="about-art-link" href="about.html" aria-label="Read Jerry's story"><img src="/assets/images/about-certificates.png" alt=""></a>
         </div>
         <div class="reveal">
           <p class="eyebrow">Why Professor Jerry?</p>
@@ -161,7 +179,7 @@
             </div>
             <div class="partner-body">
               <span class="tag">A Professor Jerry project</span>
-              <h3>Atlas RV Solutions</h3>
+              <h3 id="atlas">Atlas RV Solutions</h3>
               <p>Modular 3D-printed storage and organization products designed specifically for the odd spaces found
                 inside RVs.</p>
               <!--
@@ -185,7 +203,7 @@
             </a>
             <div class="partner-body">
               <span class="tag">Independent recommendations</span>
-              <h3>Professor Jerry&#x2019;s Amazon RV Picks</h3>
+              <h3 id="rv-picks">Professor Jerry&#x2019;s Amazon RV Picks</h3>
               <p>RV gear I recommend, with notes on where it helps and what to check before you buy.</p>
               <p>I do not receive payment or commissions for these recommendations.</p>
               <a class="text-link" href="rv-picks.html">Browse RV picks <span aria-hidden="true">&#x2192;</span></a>
@@ -199,7 +217,7 @@
             </a>
             <div class="partner-body">
               <span class="tag">Advertising opportunities</span>
-              <h3>Advertise With Us</h3>
+              <h3 id="advertising">Advertise With Us</h3>
               <p>Reach RV owners in Central Texas. Tell us about your RV product, service, or campground and ask about
                 advertising on Professor Jerry RV.</p>
               <a class="text-link" href="#contact">Ask about advertising <span aria-hidden="true">&#x2192;</span></a>
@@ -209,7 +227,7 @@
       </div>
     </section>
 
-    <section class="section testimonial-section">
+    <section class="section testimonial-section" id="testimonials">
       <div class="container narrow reveal">
         <p class="eyebrow">What customers say</p>
         <blockquote>
@@ -313,7 +331,6 @@
     </div>
     <div class="container footer-bottom">
       <span>&#xA9; <span data-year></span> Professor Jerry RV</span>
-      <span>Prototype website</span>
     </div>
   </footer>
 
