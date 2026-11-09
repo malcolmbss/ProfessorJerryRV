@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="maven-antrun-" default="main">
   <target name="main">
-    <echo message="Syncing images to /var/domains/staging.professorjerryrv.com/shared/images/" />
+    <echo message="Syncing images to /var/domains/professorjerryrv.com/shared/images/" />
     <exec failonerror="true" executable="wsl.exe">
       <arg value="-d" />
       <arg value="Ubuntu" />
@@ -14,15 +14,15 @@
       <arg value="-e" />
       <arg value="ssh -o BatchMode=yes" />
       <arg value="/mnt/s/Repositories/ProfessorJerryRV/jwm/webapps/ROOT/src/main/webapp/assets/images/" />
-      <arg value="lightsail-deploy:/var/domains/staging.professorjerryrv.com/shared/images/" />
+      <arg value="lightsail-deploy:/var/domains/professorjerryrv.com/shared/images/" />
     </exec>
-    <echo>Deploying ROOT (S:\Repositories\ProfessorJerryRV\jwm\webapps\ROOT\target/ROOT-1.0-SNAPSHOT.war) to https://staging.professorjerryrv.com/manager/text/deploy?path=/ROOT&amp;update=true</echo>
+    <echo>Deploying ROOT (S:\Repositories\ProfessorJerryRV\jwm\webapps\ROOT\target/ROOT-1.0-SNAPSHOT.war) to https://professorjerryrv.com/manager/text/deploy?path=/ROOT&amp;update=true</echo>
     <exec executable="curl">
       <arg value="-u" />
       <arg value="rv-deploy:NRVTA@Athens,Tx" />
       <arg value="--upload-file" />
       <arg value="S:\Repositories\ProfessorJerryRV\jwm\webapps\ROOT\target/ROOT-1.0-SNAPSHOT.war" />
-      <arg value="https://staging.professorjerryrv.com/manager/text/deploy?path=/ROOT&amp;update=true" />
+      <arg value="https://professorjerryrv.com/manager/text/deploy?path=/ROOT&amp;update=true" />
     </exec>
   </target>
 </project>
