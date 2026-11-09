@@ -1,0 +1,23 @@
+<section class="section section-muted" id="about">
+      <div class="container split-layout">
+        <div class="photo-placeholder reveal">
+          <a class="about-art-link" href="about.html" aria-label="Read Jerry's story"><img src="/assets/images/about-certificates.png" alt=""></a>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">Why Professor Jerry?</p>
+          <h2>An engineer who enjoys teaching</h2>
+          <p class="lead">RV systems can feel mysterious. They become much less intimidating when someone explains how
+            the pieces work together.</p>
+          <p>Professor Jerry RV combines engineering discipline, real-world RV experience, and a teaching-first
+            approach. The goal is not merely to solve today&#x2019;s problem&#x2014;it is to help you understand your RV
+            well enough to recognize tomorrow&#x2019;s.</p>
+          <ul class="check-list">
+            <li>Plain-English explanations</li>
+            <li>Methodical troubleshooting</li>
+            <li>No-pressure recommendations</li>
+            <li>Practical owner education</li>
+          </ul>
+          <a class="text-link" href="about.html">Read Jerry&#x2019;s story <span aria-hidden="true">&#x2192;</span></a>
+        </div>
+      </div>
+    </section>

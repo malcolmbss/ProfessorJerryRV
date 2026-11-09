@@ -1,0 +1,6 @@
+<main id="main">
+<!-- About Professor Jerry -->
+    <%@ include file="/WEB-INF/about/story.jspf" %>
+    <!-- Contact Call to Action -->
+    <%@ include file="/WEB-INF/about/contact-cta.jspf" %>
+</main>

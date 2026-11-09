@@ -1,0 +1,38 @@
+<article class="offering-card consulting-card">
+            <div class="offering-photo">
+              <img src="/assets/images/consulting.png" alt="RV consulting with Professor Jerry" loading="lazy">
+            </div>
+            <div class="offering-body">
+              <!-- Original wording
+<h2>RV Consulting / Diagnosing Problems</h2>
+-->
+              <h2 id="consulting">RV Consulting &amp; Troubleshooting</h2>
+              <!-- Original wording
+<p>This offering is one-on-one Q &amp; A regarding just about any topic I can help you with related to RVing. This also applies to diagnosing problems with your RV.</p>
+-->
+              <p>Get one-on-one help with RV ownership, system operation, or a problem you are trying to diagnose. Bring
+                your questions, and we will work through them together.</p>
+              <!-- Original wording
+<p>Since many RV owners are DIYers, I am also available as an experienced onsite mentor while you make repairs or upgrades to your own RV.</p>
+-->
+              <p>Prefer to do your own work? I can serve as an experienced onsite mentor while you make repairs or
+                upgrades to your RV.</p>
+              <!-- Original wording
+<p>Repairs I perform following a diagnosis are charged separately.</p>
+-->
+              <p>The consulting fee covers advice and troubleshooting. Any repair work I perform is charged separately.
+              </p>
+              <div class="offering-price"><span class="service-price-pair"><s class="service-price-regular"
+                    data-regular-price="75" data-sale-target="service-sale-15"><span class="sr-only">Regular price
+                    </span><span data-regular-amount>$75</span></s><span class="rv-sale-price"><strong
+                      class="service-price-current" id="service-sale-15"><span class="sr-only">Sale price </span><span
+                        data-sale-amount>$60</span></strong><span
+                      class="grand-opening-mini">Grand<br>Opening</span></span></span> per hour<br><span
+                  class="service-price-pair"><s class="service-price-regular" data-regular-price="40"
+                    data-sale-target="service-sale-16" data-price-prefix="+"><span class="sr-only">Regular price
+                    </span><span data-regular-amount>+$40</span></s><span class="rv-sale-price"><strong
+                      class="service-price-current" id="service-sale-16"><span class="sr-only">Sale price </span><span
+                        data-sale-amount>+$32</span></strong><span
+                      class="grand-opening-mini">Grand<br>Opening</span></span></span> trip charge</div>
+            </div>
+          </article>

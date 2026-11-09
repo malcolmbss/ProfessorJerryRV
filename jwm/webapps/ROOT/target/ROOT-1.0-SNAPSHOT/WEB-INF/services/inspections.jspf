@@ -1,0 +1,224 @@
+<section class="inner-page-heading" id="inspections">
+
+      <div class="services-inline-3 container">
+
+        <p class="eyebrow">Professor Jerry RV Inspections</p>
+
+        <h1>RV Inspections</h1>
+
+        <p class="lead">RV Inspections Information and Pricing</p>
+
+      </div>
+
+    </section>
+
+
+
+    <section class="section">
+
+      <div class="container inner-page-content">
+
+        <p>
+
+          An RV is a major purchase. Just as you'd have a home inspected before buying it,
+
+          you can have an independent inspector look over the RV before you sign. That
+
+          applies whether you're buying a used RV or taking delivery of a
+
+          brand-new RV.
+
+        </p>
+
+
+
+        <p>
+
+          On a used RV, the inspection can help you spot wear, damage, or systems that
+
+          aren't working as expected. On a new RV, it gives you a chance to bring issues
+
+          to the dealer's attention before delivery. A warranty can help cover eligible
+
+          repairs, but you may still have to wait for a service appointment.
+
+        </p>
+
+
+
+        <h3 id="certified-inspector">Why Choose a Certified RV Inspector?</h3>
+
+        <p>
+
+          An RV packs a lot into a small space. It has plumbing, propane, batteries,
+
+          120-volt electrical circuits, appliances, heating and cooling, and often
+
+          slide-outs or leveling equipment. A system can appear to work during a quick
+
+          walkthrough and still perform poorly when tested.
+
+        </p>
+
+
+
+        <p>
+
+          A certified RV inspector is trained to check those systems methodically and
+
+          document what they find. I use inspection software designed for RVs to record
+
+          the condition of the roof, exterior, and accessible systems. The result is a
+
+          written record you can refer to when deciding what to ask the seller about
+
+          before you buy.
+
+        </p>
+
+
+
+        <!-- Original wording
+<p>I am certified through the <b>National RV Inspectors Association (<a target="_new"
+
+              href="https://nrvia.org">NRVIA)</a></b> which enforce vigorous
+
+          education, requirements, and code of ethics for its members.
+
+
+
+
+-->
+        <p>I am a Certified RV Inspector through the <a href="https://nrvia.org" target="_blank"
+            rel="noopener noreferrer">National RV Inspectors Association (NRVIA)</a>. My work reflects the training and
+          professional standards associated with that certification.</p>
+
+        <h3 id="inspection-process">What Happens During an Inspection?</h3>
+
+        <p>
+
+          Plan on about five to ten hours on site, depending on the RV's size and
+
+          features. The on-site inspection takes place in a single calendar day. I take
+
+          hundreds of photos and select the ones that best show the RV's condition and
+
+          the findings that matter. A detailed report may run 100 pages or more and
+
+          include around 80 to 100 photos.
+
+        </p>
+
+
+
+        <p>
+
+          The report lists the most serious findings first, including any life safety
+
+          concerns. If a finding raises a safety concern, I may recommend having a
+
+          qualified RV technician evaluate it before you enter, drive, or move the RV.
+
+        </p>
+
+
+
+        <p>
+
+          The inspection documents observed conditions and potential problems. A
+
+          qualified technician can use those findings to diagnose the cause and
+
+          recommend repairs. For motorhomes, the inspection covers the RV portion.
+
+          Arrange a separate mechanical inspection if you want the engine evaluated.
+
+        </p>
+
+        <section>
+
+          <h3 id="inspection-types">Types of Inspections</h3>
+
+          <p>We offer two types of inspections for each class/size of RV.</p>
+
+
+          <div style="width:100%">
+            <div class="about-portrait">
+              <img src="/assets/images/essentials.png" alt="Essentials" loading="lazy">
+            </div>
+            <p>The Essentials Inspection focuses on the inspection categories you select. Pricing depends on the scope
+              of work. You receive a PDF report documenting the areas inspected and identifying it as a limited-scope
+              Essentials Inspection. Contact me for an estimate tailored to your RV and your needs.</p>
+          </div>
+
+
+          <div style="width:100%; clear:both">
+            <div class="about-portrait">
+              <img src="/assets/images/completecertified.png" alt="Complete Certified" loading="lazy">
+            </div>
+            <p>The Complete Certified Inspection provides a comprehensive review of your RV&rsquo;s accessible areas and
+              systems within the inspection&rsquo;s scope. You receive a detailed PDF report documenting the findings
+              for your records and discussions with the seller.</p>
+        </section>
+
+        <h3 class="services-inline-4" id="sample-report">Inspection Report Documentation</h3>
+
+        <p>To get an idea of what you'll receive, take a look at the inspection report I prepared
+          on my own Forest River Rockwood MiniLite 2515S for my <b>National RV Inspectors Academy</b> final exam.
+        </p>
+        <p>
+          View sample inspection report
+
+          <a target="_report" class="offering-pdf" href="assets/documents/MalcolmForestRiverRockwood2515sFinal.pdf"
+            aria-label="View sample inspection report (PDF)">
+
+            <svg width="28" height="32" viewBox="0 0 28 32" aria-hidden="true" focusable="false">
+
+              <path d="M4 1h12l8 8v22H4z" fill="white" stroke="currentColor" stroke-width="2" />
+
+              <path d="M16 1v8h8" fill="none" stroke="currentColor" stroke-width="2" />
+
+              <rect x="0" y="14" width="28" height="13" rx="2" fill="currentColor" />
+
+              <text x="14" y="24" text-anchor="middle" fill="white" font-family="sans-serif" font-size="9"
+                font-weight="bold">PDF</text>
+
+            </svg>
+
+          </a>
+<h3 class="services-inline-4" id="inspection-prices">Inspection Pricing</h3>
+        </p>
+              <div class="walkthrough-sale-banner">
+                <strong>GRAND OPENING SALE � 20% OFF</strong>
+                <span>Through <strong>December 31, 2026</strong>See individual prices below</span>
+              </div>
+        <div class="offering-grid">
+
+          <%@ include file="/WEB-INF/services/inspections/small-trailer.jspf" %>
+
+
+
+          <%@ include file="/WEB-INF/services/inspections/large-trailer.jspf" %>
+
+
+
+          <%@ include file="/WEB-INF/services/inspections/fifth-wheel.jspf" %>
+
+
+
+          <%@ include file="/WEB-INF/services/inspections/class-c.jspf" %>
+
+          <%@ include file="/WEB-INF/services/inspections/super-c.jspf" %>
+
+
+          <%@ include file="/WEB-INF/services/inspections/class-b.jspf" %>
+
+
+
+          <%@ include file="/WEB-INF/services/inspections/class-a.jspf" %>
+
+        </div>
+
+      </div>
+
+    </section>

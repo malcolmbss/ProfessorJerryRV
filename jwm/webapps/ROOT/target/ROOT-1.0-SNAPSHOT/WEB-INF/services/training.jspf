@@ -1,0 +1,40 @@
+<section class="inner-page-heading" id="training">
+
+      <div class="services-inline-1 container">
+
+        <p class="eyebrow">Professor Jerry RV Training</p>
+
+        <h1>RV Training</h1>
+
+      </div>
+
+    </section>
+
+    <section class="section">
+      <div class="container one-on-one-content">
+        <h2 id="one-on-one">One-on-One Training</h2>
+        <div class="one-on-one-offerings">
+          <%@ include file="/WEB-INF/services/training/walkthrough.jspf" %>
+
+          <%@ include file="/WEB-INF/services/training/consulting.jspf" %>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <section class="section">
+
+      <div class="container inner-page-content">
+
+        <!-- Original wording
+<h2>Training Seminar Offerings</h2>
+-->
+        <h2 id="seminars">RV Training Seminars</h2>
+
+        <%@ include file="/WEB-INF/services/training/electrical-seminar.jspf" %>
+
+      </div>
+
+    </section>

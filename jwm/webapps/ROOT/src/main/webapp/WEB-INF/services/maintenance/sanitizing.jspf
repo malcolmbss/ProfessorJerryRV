@@ -1,0 +1,33 @@
+<article class="offering-card">
+
+            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/sanitizing.png"></div>
+
+            <div class="offering-body">
+
+              <h2 id="sanitizing">Fresh Water Tank Sanitizing</h2>
+
+              <!-- Original wording
+<p>When your RV sits idle for weeks/months, mold can develop in the fresh water tank and possibly in the
+
+                pipes.
+
+                This could potentially be a health risk. I will sanitize your fresh water system according to
+
+                recommendations and instructions from
+
+                your RV manufacturer.</p>
+-->
+              <p>Fresh water systems need periodic sanitizing, particularly after extended storage. I sanitize your
+                RV&rsquo;s fresh water tank and plumbing using the applicable manufacturer&rsquo;s instructions to help
+                you prepare for your next trip.</p>
+
+              <div class="offering-price"><span class="service-price-pair"><s class="service-price-regular"
+                    data-regular-price="169" data-sale-target="service-sale-20"><span class="sr-only">Regular price
+                    </span><span data-regular-amount>$169</span></s><span class="rv-sale-price"><strong
+                      class="service-price-current" id="service-sale-20"><span class="sr-only">Sale price
+                      </span><span data-sale-amount>$135</span></strong><span
+                      class="grand-opening-mini">Grand<br>Opening</span></span></span> </div>
+
+            </div>
+
+          </article>

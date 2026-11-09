@@ -1,0 +1,20 @@
+<article class="offering-card">
+
+            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/superc.jpg"></div>
+
+            <div class="offering-body">
+
+              <h2 id="inspect-super-c">Super C RV Inspection</h2>
+
+              <div class="offering-price">
+
+                <span class="service-price-pair"><s class="service-price-regular" data-regular-price="1099"
+                    data-sale-target="service-sale-25"><span class="sr-only">Regular price
+                    </span><span data-regular-amount>$1099</span></s><span class="rv-sale-price"><strong
+                      class="service-price-current" id="service-sale-25"><span class="sr-only">Sale price </span><span                        data-sale-amount>$???</span></strong><span
+                      class="grand-opening-mini">Grand<br>Opening</span></span></span>
+
+              </div>
+            </div>
+
+          </article>

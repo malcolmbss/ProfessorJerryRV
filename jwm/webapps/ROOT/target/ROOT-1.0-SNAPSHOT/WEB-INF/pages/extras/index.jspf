@@ -1,0 +1,42 @@
+<script>
+    (() => {
+      const form = document.getElementById("contact-form");
+
+      form.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        const data = new FormData(form);
+        const read = (name) => String(data.get(name) ?? "").trim();
+        const fields = [
+          ["Name", "name"],
+          ["Email", "email"],
+          ["Phone", "phone"],
+          ["Service", "service"],
+          ["RV manufacturer", "manufacturer"],
+          ["RV series", "series"],
+          ["RV model number", "model"],
+          ["RV model year", "model-year"],
+        ];
+        const lines = fields
+          .map(([label, name]) => [label, read(name)])
+          .filter(([, value]) => value)
+          .map(([label, value]) => `${label}: ${value}`);
+
+        lines.push("", "Message:", read("message"));
+        const subject = encodeURIComponent("Professor Jerry RV inquiry");
+        const body = encodeURIComponent(lines.join("\n").replace(/\r?\n/g, "\r\n"));
+        window.location.href = `${form.action}?subject=${subject}&body=${body}`;
+      });
+    })();
+  </script>
+
+  <dialog class="grand-opening-popup" id="grand-opening-popup" aria-label="Professor Jerry RV Grand Opening Sale">
+    <img class="grand-opening-popup__image" src="/assets/images/grandopeningsale.png"
+      alt="Professor Jerry RV Grand Opening Sale. 20% off most services through December 31, 2026. See individual services for details."
+      width="1536" height="1024">
+    <div class="grand-opening-popup__actions">
+      <a class="button button-small" href="/index.html#services">View services and sale prices</a>
+      <button class="button button-small button-secondary" type="button" data-sale-dismiss autofocus>Dismiss</button>
+    </div>
+  </dialog>
+  <script src="assets/js/grand-opening.js" defer></script>

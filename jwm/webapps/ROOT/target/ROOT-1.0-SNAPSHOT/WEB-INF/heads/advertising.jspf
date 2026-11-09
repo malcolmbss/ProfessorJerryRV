@@ -1,0 +1,44 @@
+<meta name="description" content="Transparency about recommendations, featured products, and paid placements.">
+  <title>Advertising &amp; Affiliate Disclosure | Professor Jerry RV</title>
+  
+  
+  
+  
+  
+  <style>
+    /* Page-specific styles only; the site's existing stylesheet remains authoritative. */
+    .inner-page-heading {
+      padding: 4.5rem 0 3rem;
+      background: #f4f6f8;
+    }
+
+    .inner-page-heading h1 {
+      margin: .5rem 0 1rem;
+      max-width: 850px;
+      color: var(--navy, #143A63);
+    }
+
+    .inner-page-heading p:last-child {
+      max-width: 720px;
+    }
+
+    .inner-page-content {
+      max-width: 850px;
+    }
+
+    .inner-page-content h2 {
+      margin-top: 2rem;
+    }
+
+    .inner-page-content p {
+      line-height: 1.8;
+    }
+
+    .inner-page-cta {
+      text-align: center;
+    }
+
+    .inner-page-cta .button {
+      margin-top: 1rem;
+    }
+  </style>
