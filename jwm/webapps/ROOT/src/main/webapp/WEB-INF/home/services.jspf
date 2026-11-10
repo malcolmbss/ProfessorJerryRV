@@ -1,44 +1,45 @@
 <section class="section" id="services">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="eyebrow">How I can help</p>
-          <h2>Support for every stage of RV ownership</h2>
-          <p>Start with a conversation. We will figure out what you need and what you do not.</p>
-        </div>
+  <div class="container">
+    <div class="section-heading reveal">
+      <p class="eyebrow">How I can help</p>
+      <h2>Support for every stage of RV ownership</h2>
+      <p>Start with a conversation. We will figure out what you need and what you do not.</p>
+    </div>
 
-        <div class="card-grid three-column">
-          <article class="service-card reveal">
-            <a class="service-icon-link" href="services.html#training" aria-label="Learn about training">
-              <span class="icon" aria-hidden="true">&#x1F393;</span>
-            </a>
-            <h3 id="training">RV Training</h3>
-            <p>Hands-on orientation and patient instruction tailored to your RV, your experience level, and the way you
-              travel.</p>
-            <a href="services.html#training">Learn about training <span aria-hidden="true">&#x2192;</span></a>
-          </article>
-          <article class="service-card reveal">
-            <a class="service-icon-link" href="services.html#service" aria-label="Learn about service">
-              <span class="icon" aria-hidden="true">&#x1F527;</span>
-            </a>
-            <h3 id="service">RV Service</h3>
-            <p>Practical troubleshooting, maintenance assistance, and straightforward explanations of what failed and
-              why.</p>
-            <a href="services.html#service">Learn about service <span aria-hidden="true">&#x2192;</span></a>
-          </article>
-          <article class="service-card reveal">
-            <a class="service-icon-link" href="services.html#inspections" aria-label="Learn about inspections">
-              <span class="icon" aria-hidden="true">&#x2713;</span>
-            </a>
-            <h3 id="inspections">RV Inspections</h3>
-            <center>
-              <a href="services.html#inspections" aria-label="Learn about inspections"><img style="width:50px" src="/assets/images/nrvia-patch.png" alt="Certified RV Inspector certification"
-                loading="lazy"></a>
-            </center>
-            <p>Detailed, independent inspections by a <b>National RV Inspectors Association (<a target="_new"
-                  href="https://nrvia.org">NRVIA)</a></b> certified inspector that help buyers and owners make informed
-              decisions before problems become expensive.</p>
-            <a href="services.html#inspections">Learn about inspections <span aria-hidden="true">&#x2192;</span></a>
-          </article>
-        </div>
-      </div>
-    </section>
+    <div class="card-grid three-column">
+      <article class="service-card reveal">
+        <a class="service-icon-link" href="services.html#training" aria-label="Learn about training">
+          <span class="icon" aria-hidden="true">&#x1F393;</span>
+        </a>
+        <h3 id="training">RV Training</h3>
+        <p>Hands-on orientation and patient instruction tailored to your RV, your experience level, and the way you
+          travel.</p>
+        <a href="services.html#training">Learn about training <span aria-hidden="true">&#x2192;</span></a>
+      </article>
+      <article class="service-card reveal">
+        <a class="service-icon-link" href="services.html#service" aria-label="Learn about service">
+          <span class="icon" aria-hidden="true">&#x1F527;</span>
+        </a>
+        <h3 id="service">RV Service</h3>
+        <p>Practical troubleshooting, maintenance assistance, and straightforward explanations of what failed and
+          why.</p>
+        <a href="services.html#service">Learn about service <span aria-hidden="true">&#x2192;</span></a>
+      </article>
+      <article class="service-card reveal">
+        <a class="service-icon-link" href="services.html#inspections" aria-label="Learn about inspections">
+          <span class="icon" aria-hidden="true">&#x2713;</span>
+        </a>
+        <h3 id="inspections">RV Inspections</h3>
+        <center>
+          <a href="services.html#inspections" aria-label="Learn about inspections"><img style="width:50px"
+              src="/assets/images/nrvia-patch.png" alt="Certified RV Inspector certification" loading="lazy"></a>
+        </center>
+        <p>Detailed, independent inspections by a <b>National RV Inspectors Association (<a target="_new"
+              href="https://nrvia.org">NRVIA)</a></b> certified inspector that help buyers and owners make informed
+          decisions before problems become expensive.</p>
+        <a href="services.html#inspections">Learn about inspections <span aria-hidden="true">&#x2192;</span></a>
+      </article>
+    </div>
+  </div>
+
+</section>

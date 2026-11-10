@@ -191,6 +191,7 @@
               <% { String saleBannerId = "inspection-grand-opening-sale"; String saleBannerDetails = "See individual prices below"; %>
 <%@ include file="/WEB-INF/services/sale-banner.jspf" %>
 <% } %>
+        <%@ include file="/WEB-INF/services/pricing-notice.jspf" %>
         <div class="offering-grid">
 
           <%@ include file="/WEB-INF/services/inspection-cards.jspf" %>

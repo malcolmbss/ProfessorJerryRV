@@ -1,5 +1,0 @@
-<%@ include file="/WEB-INF/picks/items/tailgate-ladder.jspf" %>
-<%@ include file="/WEB-INF/picks/items/water-hose.jspf" %>
-<%@ include file="/WEB-INF/picks/items/wheel-lock.jspf" %>
-<%@ include file="/WEB-INF/picks/items/breakaway-cable.jspf" %>
-<%@ include file="/WEB-INF/picks/items/towing-chain-organizer.jspf" %>

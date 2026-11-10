@@ -4,36 +4,21 @@
                 loading="lazy">
             </div>
             <div class="offering-body walkthrough-description">
-              <!-- Original wording
-<h2>Personalized RV Complete Training Walkthrough</h2>
--->
               <h2 id="walkthrough">Personalized RV Training Walkthrough</h2>
-              <!-- Original wording
-<p>When you purchase an RV, the dealer may provide a brief new-customer walkthrough. Many RVers, including me, find that it moves quickly and leaves important questions unanswered.</p>
--->
               <p>A dealer walkthrough can be a helpful introduction to your new RV, but it often moves quickly. If you
                 leave with unanswered questions, a personalized walkthrough gives you time to understand your RV and
                 practice using its features.</p>
-              <!-- Original wording
-<p>Before we meet, I research your RV's specific year, make, model, floorplan, and systems, just as I would when preparing for a full inspection. I create a printed, itemized checklist to guide a detailed walkthrough of your RV, with time for hands-on learning and your questions.</p>
--->
               <p>Before we meet, I research your RV&rsquo;s year, make, model, floorplan, and systems. I prepare a
                 printed checklist to guide our walkthrough, explain how the systems work, and answer your questions
                 along the way.</p>
-              <!-- Original wording
-<p><strong>Add your own personalized video library.</strong> With the video package option, I record the walkthrough and produce individually labeled how-to clips for the systems and features we cover. Your video library is delivered on a USB drive for easy reference whenever you need it.</p>
--->
               <p><strong>Add a personalized video library.</strong> Choose the video package option to have your
                 walkthrough
                 recorded and organized into individually labeled how-to clips for your RV&rsquo;s systems and features.
                 I deliver the clips on a USB drive so you can revisit each topic whenever you need a refresher.</p>
               <p>Every walkthrough includes one complimentary hour of follow-up, onsite consulting.</p>
-
             </div>
             <div class="walkthrough-packages">
-              <% { String saleBannerId = "grand-opening-sale"; String saleBannerDetails = "See individual packages below"; %>
-<%@ include file="/WEB-INF/services/sale-banner.jspf" %>
-<% } %>
+
               <div class="walkthrough-pricing">
                 <%@ include file="/WEB-INF/services/training/walkthrough-cards.jspf" %>
               </div>

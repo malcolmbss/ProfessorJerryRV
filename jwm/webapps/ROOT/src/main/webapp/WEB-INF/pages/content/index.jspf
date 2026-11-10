@@ -1,15 +1,9 @@
 <main id="main">
 <%@ include file="/WEB-INF/home/home.jspf" %>
-
     <%@ include file="/WEB-INF/home/highlights.jspf" %>
-
     <%@ include file="/WEB-INF/home/services.jspf" %>
-
     <%@ include file="/WEB-INF/home/about.jspf" %>
-
     <%@ include file="/WEB-INF/home/partners.jspf" %>
-
     <%@ include file="/WEB-INF/home/testimonials.jspf" %>
-
     <%@ include file="/WEB-INF/home/contact.jspf" %>
 </main>
