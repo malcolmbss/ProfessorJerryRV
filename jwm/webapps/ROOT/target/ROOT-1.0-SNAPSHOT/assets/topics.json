@@ -5,15 +5,18 @@
   },
   {
     "label": "Certifications & Credentials",
-    "href": "index.html#about"
+    "href": "index.html#about",
+    "keywords": ["National", "training","Academy", "NRVTA", "NRVIA"]
   },
   {
     "label": "The Story Behind the Professor Jerry Name",
-    "href": "about.html"
+    "href": "about.html",
+    "keywords": ["bio", "background", "history"]
   },
   {
     "label": "Meet Professor Jerry",
-    "href": "about.html"
+    "href": "about.html",
+    "keywords": ["bio", "background", "history"]
   },
   {
     "label": "Advertise With Us",
@@ -49,39 +52,43 @@
   },
   {
     "label": "Professor Jerry's Phone Number",
-    "href": "index.html#contact"
+    "href": "index.html#contact",
+    "keywords": ["call", "phone", "text"]
   },
   {
     "label": "Professor Jerry's Email Address",
-    "href": "index.html#contact"
+    "href": "index.html#contact",
+    "keywords": ["email", "message"]
   },
   {
     "label": "Austin & Central Texas",
-    "href": "index.html#contact"
+    "href": "index.html#contact",
+    "keywords": ["location", "address"]
   },
   {
     "label": "Location",
-    "href": "index.html#contact"
+    "href": "index.html#contact",
+    "keywords": ["location", "address"]
   },
   {
     "label": "Customer Testimonials",
-    "href": "index.html#testimonials"
-  },
-  {
-    "label": "Customer Reviews",
-    "href": "index.html#testimonials"
+    "href": "index.html#testimonials",
+    "keywords": ["reviews", "feedback", "comments"]
   },
   {
     "label": "De-Winterizing (Pricing)",
-    "href": "services.html#de-winterizing"
+    "href": "services.html#de-winterizing",
+    "keywords": ["price", "cost"]
   },
   {
     "label": "Fifth-Wheel RV Inspection",
-    "href": "services.html#inspect-fifth-wheel"
+    "href": "services.html#inspect-fifth-wheel",
+    "keywords": ["fifth wheel", "fifth-wheel", "fifthwheel", "5th wheel", "5th-wheel", "5thwheel"]
   },
   {
     "label": "Fresh Water Tank Sanitizing (Pricing)",
-    "href": "services.html#sanitizing"
+    "href": "services.html#sanitizing",
+    "keywords": ["price", "cost"]
   },
   {
     "label": "Grand Opening Sale 20% Discount Through December 31, 2026",
@@ -93,7 +100,8 @@
   },
   {
     "label": "Inspection Pricing",
-    "href": "services.html#inspection-prices"
+    "href": "services.html#inspection-prices",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "Sample Inspection Report Documentation (PDF)",
@@ -105,19 +113,23 @@
   },
   {
     "label": "Water Heater Flush (Pricing)",
-    "href": "services.html#waterheaterflush"
+    "href": "services.html#waterheaterflush",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "Personalized One-on-One RV Training Walkthrough (Pricing)",
-    "href": "services.html#walkthrough"
+    "href": "services.html#walkthrough",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "Personalized One-on-One Pre-Purchase Consultation (Pricing)",
-    "href": "services.html#prepurchaseconsultation"
+    "href": "services.html#prepurchaseconsultation",
+    "keywords": ["prepurchase", "pre purchase", "buy"]
   },
   {
     "label": "Personalized One-on-One RV Training Walkthrough With Video Recording (Pricing)",
-    "href": "services.html#walkthrough"
+    "href": "services.html#walkthrough",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "Products & Partners",
@@ -125,11 +137,13 @@
   },
   {
     "label": "RV Concierge Service (Pricing)",
-    "href": "services.html#concierge"
+    "href": "services.html#concierge",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "RV Consulting & Troubleshooting (Pricing)",
-    "href": "services.html#consulting"
+    "href": "services.html#consulting",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "RV Electrical Systems",
@@ -153,7 +167,8 @@
   },
   {
     "label": "RV Training (Pricing)",
-    "href": "services.html#training"
+    "href": "services.html#training",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "RV Training Overview",
@@ -165,7 +180,8 @@
   },
   {
     "label": "RV Winterizing (Pricing)",
-    "href": "services.html#winterizing"
+    "href": "services.html#winterizing",
+    "keywords": ["price", "pricing", "cost"]
   },
   {
     "label": "Service Highlights",
@@ -177,19 +193,23 @@
   },
   {
     "label": "Super C RV Inspection",
-    "href": "services.html#inspect-super-c"
+    "href": "services.html#inspect-super-c",
+    "keywords": ["super c", "super-c", "superc"]
   },
   {
     "label": "Travel Trailer Inspection \u2013 18 Feet and Longer",
-    "href": "services.html#inspect-large-trailer"
+    "href": "services.html#inspect-large-trailer",
+    "keywords": ["bumper pull", "bumperpull"]
   },
   {
     "label": "Travel Trailer Inspection \u2013 Under 18 Feet",
-    "href": "services.html#inspect-small-trailer"
+    "href": "services.html#inspect-small-trailer",
+    "keywords": ["bumper pull", "bumperpull"]
   },
   {
     "label": "Types of Inspections",
-    "href": "services.html#inspection-types"
+    "href": "services.html#inspection-types",
+    "keywords": ["essentials", "comprehensive", "full"]
   },
   {
     "label": "What Happens During an Inspection?",
@@ -209,7 +229,8 @@
   },
   {
     "label": "Trailer Wheel Lock (Amazon Pick)",
-    "href": "rv-picks.html#wheel-lock"
+    "href": "rv-picks.html#wheel-lock",
+    "keywords": ["SECURITY", "LOCK", "WHEEL LOCK", "TRAILER LOCK"]
   },
   {
     "label": "Trailer Breakaway Brake Cable (Amazon Pick)",
@@ -221,6 +242,7 @@
   },
   {
     "label": "Veterans & First Responders Discount",
-    "href": "veterans-first-responders.html"
+    "href": "veterans-first-responders.html",
+    "keywords": ["MILITARY", "VETERAN", "FIRST RESPONDER", "POLICE", "FIREFIGHTER", "EMT" ]
   }
 ]

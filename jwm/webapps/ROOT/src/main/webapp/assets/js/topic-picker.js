@@ -32,6 +32,11 @@
   const status = picker.querySelector("[role=status]");
   let loaded = false;
   let loading = false;
+  const searchText = new WeakMap();
+
+  function normalizeSearch(text) {
+    return text.toLowerCase().replace(/[-\u2010-\u2015]/g, " ").trim();
+  }
 
   function showStatus(message) {
     status.textContent = message;
@@ -48,13 +53,15 @@
       topics.sort((first, second) => first.label.localeCompare(second.label, "en"));
 
       const entries = document.createDocumentFragment();
-      for (const { label, href } of topics) {
+      for (const { label, href, keywords = [] } of topics) {
         const url = new URL(href, siteRoot);
         if (url.origin !== siteRoot.origin || !["http:", "https:"].includes(url.protocol)) continue;
         const item = document.createElement("li");
         const link = document.createElement("a");
         link.href = url.href;
         link.textContent = label;
+        const aliases = Array.isArray(keywords) ? keywords.filter(keyword => typeof keyword === "string") : [];
+        searchText.set(item, [label, ...aliases].map(normalizeSearch).join(" "));
         item.append(link);
         entries.append(item);
       }
@@ -71,11 +78,11 @@
   }
 
   filter.addEventListener("input", () => {
-    const words = filter.value.trim().toLowerCase().split(/\s+/);
+    const words = normalizeSearch(filter.value).split(/\s+/);
     let hasMatch = false;
     for (const item of list.children) {
-      const label = item.textContent.toLowerCase();
-      item.hidden = !words.every(word => label.includes(word));
+      const text = searchText.get(item);
+      item.hidden = !words.every(word => text.includes(word));
       hasMatch ||= !item.hidden;
     }
     showStatus(hasMatch ? "" : "No matching topics.");

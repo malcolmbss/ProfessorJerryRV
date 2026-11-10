@@ -1,4 +1,0 @@
-<label class="service-discount-checkbox full-width">
-  <input type="checkbox" name="service-discount" value="Yes">
-  <span>I am a veteran or 1st responder</span>
-</label>

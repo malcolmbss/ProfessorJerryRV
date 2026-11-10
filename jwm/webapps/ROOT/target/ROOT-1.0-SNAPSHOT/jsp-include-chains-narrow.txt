@@ -1,0 +1,333 @@
+Professor Jerry RV | JSP include chains
+Each indented block is one page-to-leaf chain. The /WEB-INF prefix is omitted.
+
+/ and /index.html [index.jsp]
+/index.jsp
+   /shared/grand-opening.jspf
+
+/index.jsp
+   /shared/head-start.jspf
+
+/index.jsp
+   /heads/index.jspf
+
+/index.jsp
+   /shared/header.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/home.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/highlights.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/services.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/about.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/partners.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/testimonials.jspf
+
+/index.jsp
+   /pages/content/index.jspf
+      /home/contact.jspf
+         /shared/service-discount-checkbox.jspf
+
+/index.jsp
+   /shared/footer.jspf
+
+/index.jsp
+   /shared/scripts.jspf
+
+/index.jsp
+   /pages/extras/index.jspf
+
+
+/about.html [/pages/about.jsp]
+/pages/about.jsp
+   /shared/head-start.jspf
+
+/pages/about.jsp
+   /heads/about.jspf
+
+/pages/about.jsp
+   /shared/header.jspf
+
+/pages/about.jsp
+   /pages/content/about.jspf
+      /about/story.jspf
+
+/pages/about.jsp
+   /pages/content/about.jspf
+      /about/contact-cta.jspf
+
+/pages/about.jsp
+   /shared/footer.jspf
+
+/pages/about.jsp
+   /shared/scripts.jspf
+
+
+/services.html [/pages/services.jsp]
+/pages/services.jsp
+   /shared/grand-opening.jspf
+
+/pages/services.jsp
+   /services/rv-prices.jspf
+
+/pages/services.jsp
+   /shared/head-start.jspf
+
+/pages/services.jsp
+   /heads/services.jspf
+
+/pages/services.jsp
+   /shared/header.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/training.jspf
+         /services/sale-banner.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/training.jspf
+         /services/pricing-notice.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/training.jspf
+         /services/training/pre-sale-consultation.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/training.jspf
+         /services/training/walkthrough.jspf
+            /services/training/walkthrough-cards.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/training.jspf
+         /services/training/consulting.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/training.jspf
+         /services/training/electrical-seminar.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/maintenance.jspf
+         /services/sale-banner.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/maintenance.jspf
+         /services/pricing-notice.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/maintenance.jspf
+         /services/maintenance/winterizing.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/maintenance.jspf
+         /services/maintenance/concierge.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/maintenance.jspf
+         /services/maintenance/sanitizing.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/maintenance.jspf
+         /services/maintenance/waterheaterflush.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/inspections.jspf
+         /services/sale-banner.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/inspections.jspf
+         /services/pricing-notice.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /services/inspections.jspf
+         /services/inspection-cards.jspf
+
+/pages/services.jsp
+   /pages/content/services.jspf
+      /shared/contact-cta.jspf
+
+/pages/services.jsp
+   /shared/footer.jspf
+
+/pages/services.jsp
+   /shared/scripts.jspf
+
+
+/rv-picks.html [/pages/rv-picks.jsp]
+/pages/rv-picks.jsp
+   /shared/head-start.jspf
+
+/pages/rv-picks.jsp
+   /heads/rv-picks.jspf
+
+/pages/rv-picks.jsp
+   /shared/header.jspf
+
+/pages/rv-picks.jsp
+   /pages/content/rv-picks.jspf
+      /picks/items.jspf
+         /picks/items/tailgate-ladder.jspf
+
+/pages/rv-picks.jsp
+   /pages/content/rv-picks.jspf
+      /picks/items.jspf
+         /picks/items/water-hose.jspf
+
+/pages/rv-picks.jsp
+   /pages/content/rv-picks.jspf
+      /picks/items.jspf
+         /picks/items/wheel-lock.jspf
+
+/pages/rv-picks.jsp
+   /pages/content/rv-picks.jspf
+      /picks/items.jspf
+         /picks/items/breakaway-cable.jspf
+
+/pages/rv-picks.jsp
+   /pages/content/rv-picks.jspf
+      /picks/items.jspf
+         /picks/items/towing-chain-organizer.jspf
+
+/pages/rv-picks.jsp
+   /shared/footer.jspf
+
+/pages/rv-picks.jsp
+   /shared/scripts.jspf
+
+
+/contact.html [/pages/contact.jsp]
+/pages/contact.jsp
+
+Redirect to /index.html#contact
+
+/privacy.html [/pages/privacy.jsp]
+/pages/privacy.jsp
+   /shared/head-start.jspf
+
+/pages/privacy.jsp
+   /heads/privacy.jspf
+
+/pages/privacy.jsp
+   /shared/header.jspf
+
+/pages/privacy.jsp
+   /pages/content/privacy.jspf
+      /privacy/intro.jspf
+
+/pages/privacy.jsp
+   /pages/content/privacy.jspf
+      /privacy/details.jspf
+
+/pages/privacy.jsp
+   /pages/content/privacy.jspf
+      /shared/contact-cta.jspf
+
+/pages/privacy.jsp
+   /shared/footer.jspf
+
+/pages/privacy.jsp
+   /shared/scripts.jspf
+
+
+/code-of-ethics.html [/pages/code-of-ethics.jsp]
+/pages/code-of-ethics.jsp
+   /shared/head-start.jspf
+
+/pages/code-of-ethics.jsp
+   /heads/code-of-ethics.jspf
+
+/pages/code-of-ethics.jsp
+   /shared/header.jspf
+
+/pages/code-of-ethics.jsp
+   /pages/content/code-of-ethics.jspf
+      /code-of-ethics/intro.jspf
+
+/pages/code-of-ethics.jsp
+   /pages/content/code-of-ethics.jspf
+      /code-of-ethics/details.jspf
+
+/pages/code-of-ethics.jsp
+   /pages/content/code-of-ethics.jspf
+      /shared/contact-cta.jspf
+
+/pages/code-of-ethics.jsp
+   /shared/footer.jspf
+
+/pages/code-of-ethics.jsp
+   /shared/scripts.jspf
+
+
+/advertising.html [/pages/advertising.jsp]
+/pages/advertising.jsp
+   /shared/head-start.jspf
+
+/pages/advertising.jsp
+   /heads/advertising.jspf
+
+/pages/advertising.jsp
+   /shared/header.jspf
+
+/pages/advertising.jsp
+   /pages/content/advertising.jspf
+      /advertising/intro.jspf
+
+/pages/advertising.jsp
+   /pages/content/advertising.jspf
+      /advertising/details.jspf
+
+/pages/advertising.jsp
+   /pages/content/advertising.jspf
+      /shared/contact-cta.jspf
+
+/pages/advertising.jsp
+   /shared/footer.jspf
+
+/pages/advertising.jsp
+   /shared/scripts.jspf
+
+
+/veterans-first-responders.html [/pages/veterans-first-responders.jsp]
+/pages/veterans-first-responders.jsp
+   /shared/head-start.jspf
+
+/pages/veterans-first-responders.jsp
+   /shared/header.jspf
+
+/pages/veterans-first-responders.jsp
+   /services/veterans-first-responders.jspf
+
+/pages/veterans-first-responders.jsp
+   /shared/footer.jspf
+
+/pages/veterans-first-responders.jsp
+   /shared/scripts.jspf
+

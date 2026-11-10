@@ -1,4 +1,0 @@
-<%!
-    private static final int GRAND_OPENING_PERCENT = 20;
-    private static final String GRAND_OPENING_END = "December 31, 2026";
-%>
