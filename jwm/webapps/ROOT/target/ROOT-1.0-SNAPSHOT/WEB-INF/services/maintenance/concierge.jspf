@@ -1,0 +1,44 @@
+<article class="offering-card">
+
+            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/concierge.png"></div>
+
+            <div class="offering-body">
+
+              <h2 id="concierge">RV Concierge Service</h2>
+
+              <h4>Monthly check-ins for your stored RV</h4>
+
+              <!-- Original wording
+<p>Check for rodent invasion or damage, run the generator for a few minutes as is likely specified in your
+
+                manual. run the heater for a few minutes as is likely specified in your manual. Do an overall visual
+
+                checkout of your RV.
+
+
+-->
+              <p>While your RV is in storage or  perhaps unattended on a deer lease, I visit once a month to look for signs of rodents or visible damage and
+                review its overall condition. I also check equipment operation and tire pressure, including performing any manufacturer's recommended monthly startups of your generator, air conditioner, and heater.</p>
+
+
+                <p>I will send you an email after each visit with current overview photos and photos of any specific issues found.</p>
+              <p>Each visit requires your approval in advance and access to your RV while you are
+                away.</p>
+              <!-- Original wording
+<p>Texas Hill Country, San Antonio, and parts of South Texas are available for concierge service as well
+
+                as the Austin area.</p>
+-->
+              <p>Service is available in the Austin area, the Texas Hill Country, San Antonio, and parts of South Texas.
+                Contact me to confirm availability at your storage location.</p>
+
+              <div class="offering-price"><rv:price regular="149" discount="<%= GRAND_OPENING_PERCENT %>" regularNote="per monthly visit." /> per month for 1st three visits.
+                <!-- Original wording
+per Monthly Visit (Client approves each month in
+
+                advance; Unattended access to RV is required)
+-->
+              </div>
+
+            </div>
+          </article>

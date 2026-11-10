@@ -1,0 +1,33 @@
+<article class="rv-price-card">
+                  <header class="rv-price-card__header">
+                    <img class="rv-price-card__image" src="/assets/images/smalltraveltrailer.jpg" alt="" width="110"
+                      height="75" loading="lazy">
+                    <div>
+                      <h3>Small Trailer</h3>
+                      <p>Under 18 feet</p>
+                    </div>
+                  </header>
+                  <div class="rv-price-card__option">
+                    <h4>Personalized Walkthrough</h4>
+                    <div class="rv-price-card__prices">
+                      <s class="rv-price-card__regular" data-regular-price="229" data-sale-target="service-sale-1"><span
+                          class="sr-only">Regular price </span><span data-regular-amount>$750</span></s><span
+                        class="rv-sale-price"><strong class="rv-price-card__current" id="service-sale-1"><span
+                            class="sr-only">Sale price
+                          </span><span data-sale-amount>$600</span></strong><span
+                          class="grand-opening-mini">Grand<br>Opening</span></span>
+                    </div>
+                  </div>
+                  <div class="rv-price-card__option">
+                    <h4>Walkthrough + Video Library</h4>
+                    <div class="rv-price-card__prices">
+                      <s class="rv-price-card__regular" data-regular-price="349" data-sale-target="service-sale-2"><span
+                          class="sr-only">Regular price </span><span data-regular-amount>$1,000</span></s><span
+                        class="rv-sale-price"><strong class="rv-price-card__current" id="service-sale-2"><span
+                            class="sr-only">Sale price
+                          </span><span data-sale-amount>$800</span></strong><span
+                          class="grand-opening-mini">Grand<br>Opening</span></span>
+                    </div>
+                    <p class="rv-price-card__total">Total package price, including walkthrough</p>
+                  </div>
+                </article>

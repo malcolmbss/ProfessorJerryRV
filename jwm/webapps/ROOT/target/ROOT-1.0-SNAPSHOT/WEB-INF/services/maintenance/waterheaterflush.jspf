@@ -1,0 +1,31 @@
+<article class="offering-card">
+  <div class="offering-photo" aria-hidden="true"><img src="/assets/images/suburbanwaterheater.png"></div>
+  <div class="offering-body">
+    <h2 id="waterheaterflush">Water Heater Flush</h2>
+    <p>
+      Over time, sediment and mineral deposits can collect in your RV&rsquo;s
+      water heater tank. That buildup can reduce heating efficiency and shorten
+      the life of the tank. I&rsquo;ll flush the tank and use water and compressed
+      air to loosen and remove as much buildup as possible.
+    </p>
+    <h4>Anode Rod Inspection</h4>
+    <p>
+      If you have a Suburban tank-style water heater (see image above of a Suburban water heater), 
+      I&rsquo;ll also check the
+      anode rod while the tank is drained. The rod intentionally gradually wears away as it
+      protects the steel tank from corrosion. Suburban recommends replacing it
+      once a year, or sooner if more than 75% of the rod material has worn away.
+      Once the rod is depleted, the tank is more vulnerable to corrosion.
+      If your water heater needs a new anode rod, replacement is included in the service price.
+    </p>
+    <h4>Tank-Style Water Heaters vs. Tankless Water Heaters</h4>
+    <p>
+      This flushing service is for tank-style RV water heaters. Anode rod
+      inspection applies to models equipped with one. Tankless water heaters
+      have separate maintenance requirements that vary by model.
+    </p>
+    <div class="offering-price">
+      <rv:price regular="169" discount="<%= GRAND_OPENING_PERCENT %>" />
+    </div>
+  </div>
+</article>

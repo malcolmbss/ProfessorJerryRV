@@ -1,0 +1,33 @@
+<section class="inner-page-heading" id="training">
+  <div class="services-inline-1 container">
+    <p class="eyebrow">Professor Jerry RV Training</p>
+    <h1>RV Consulting &amp;Training</h1>
+  </div>
+</section>
+<% { String saleBannerId="grand-opening-sale" ; String saleBannerDetails="See individual packages below" ; %>
+  <%@ include file="/WEB-INF/services/sale-banner.jspf" %>
+    <% } %>
+
+      <section class="section">
+        <div class="container one-on-one-content">
+          <h2 id="one-on-one">One-on-One Consultations</h2>
+          <%@ include file="/WEB-INF/services/pricing-notice.jspf" %>
+            <div class="one-on-one-offerings">
+              <h3>Pre-Purchase Phase</h3>
+              <%@ include file="/WEB-INF/services/training/pre-sale-consultation.jspf" %>
+                <h3>Purchase & Delivery Phase</h3>
+                <%@ include file="/WEB-INF/services/training/walkthrough.jspf" %>
+                  <h3>Post-Purchase Phase</h3>
+                  <%@ include file="/WEB-INF/services/training/consulting.jspf" %>
+            </div>
+        </div>
+      </section>
+
+
+
+      <section class="section">
+        <div class="container inner-page-content">
+          <h2 id="seminars">RV Training Seminars</h2>
+          <%@ include file="/WEB-INF/services/training/electrical-seminar.jspf" %>
+        </div>
+      </section>
