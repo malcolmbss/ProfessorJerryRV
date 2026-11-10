@@ -1,0 +1,26 @@
+<article class="offering-card walkthrough-card">
+            <div class="offering-photo">
+              <img src="/assets/images/walkthru.png" alt="Personalized RV walkthrough with Professor Jerry"
+                loading="lazy">
+            </div>
+            <div class="offering-body walkthrough-description">
+              <h2 id="walkthrough">Personalized RV Training Walkthrough</h2>
+              <p>A dealer walkthrough can be a helpful introduction to your new RV, but it often moves quickly. If you
+                leave with unanswered questions, a personalized walkthrough gives you time to understand your RV and
+                practice using its features.</p>
+              <p>Before we meet, I research your RV&rsquo;s year, make, model, floorplan, and systems. I prepare a
+                printed checklist to guide our walkthrough, explain how the systems work, and answer your questions
+                along the way.</p>
+              <p><strong>Add a personalized video library.</strong> Choose the video package option to have your
+                walkthrough
+                recorded and organized into individually labeled how-to clips for your RV&rsquo;s systems and features.
+                I deliver the clips on a USB drive so you can revisit each topic whenever you need a refresher.</p>
+              <p>Every walkthrough includes one complimentary hour of follow-up, onsite consulting.</p>
+            </div>
+            <div class="walkthrough-packages">
+
+              <div class="walkthrough-pricing">
+                <%@ include file="/WEB-INF/services/training/walkthrough-cards.jspf" %>
+              </div>
+            </div>
+          </article>

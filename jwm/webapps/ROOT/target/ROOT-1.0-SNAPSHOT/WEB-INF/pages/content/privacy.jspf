@@ -1,0 +1,7 @@
+<main id="main">
+<%@ include file="/WEB-INF/privacy/intro.jspf" %>
+
+    <%@ include file="/WEB-INF/privacy/details.jspf" %>
+
+    <%@ include file="/WEB-INF/shared/contact-cta.jspf" %>
+</main>

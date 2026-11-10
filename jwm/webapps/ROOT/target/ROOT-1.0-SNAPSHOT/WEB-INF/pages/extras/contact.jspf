@@ -1,0 +1,37 @@
+<script>
+    const form = document.getElementById("contact-form");
+
+    form.addEventListener("submit", (event) => {
+      event.preventDefault();
+
+      const data = new FormData(form);
+      const value = (name) => String(data.get(name) ?? "").trim();
+      const details = [
+        ["Name", "name"],
+        ["Email", "email"],
+        ["Veteran or first responder", "service-discount"],
+        ["Manufacturer", "manufacturer"],
+        ["RV series", "series"],
+        ["Model number", "model"],
+        ["Model year", "year"],
+      ]
+        .map(([label, name]) => [label, value(name)])
+        .filter(([, answer]) => answer)
+        .map(([label, answer]) => `${label}: ${answer}`);
+
+      const subject = "Question for Professor Jerry RV";
+      const body = [
+        ...details,
+        "",
+        "Question:",
+        value("message"),
+      ].join("\n").replace(/\r?\n/g, "\r\n");
+
+      window.location.href =
+        "mailto:info@ProfessorJerry.com" +
+        `?subject=${encodeURIComponent(subject)}` +
+        `&body=${encodeURIComponent(body)}`;
+    });
+
+    form.hidden = false;
+  </script>

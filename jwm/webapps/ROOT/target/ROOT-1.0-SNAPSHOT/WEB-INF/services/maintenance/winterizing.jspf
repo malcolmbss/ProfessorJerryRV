@@ -1,0 +1,45 @@
+<article class="offering-card">
+
+            <div class="offering-photo" aria-hidden="true"><img src="/assets/images/winterizing.png"></div>
+
+            <div class="offering-body">
+
+              <h2 id="winterizing">RV Winterizing</h2>
+
+              <p>Winterizing? We're in Texas... not Wisconsin... Correct, but think back to a few recent winters with
+                temperatures remaining
+                below freezing for several days. Harse winter days don't last all that long here. But they can easily do
+                as much costly damage to your RV plumbing in those few days as they would in Wisconsin.
+                If the weather forecast says drip your pipes at home, your RV needs attention.
+                Winterizing consists of draining and flushing all of the water from all pipes, water heater, fresh water
+                tank, and low point drains. After flushing, the pipes are
+                filled with food-safe RV anti-freeze. De-winterizing reverses the process by flushing out the antifreeze
+                and refilling with fresh water.
+
+              <div class="offering-price">
+                <h4 style="margin-bottom:5px; margin-top:5px">Winterizing </h4>
+                <rv:price regular="199" discount="<%= GRAND_OPENING_PERCENT %>" suffix="*" />
+              </div>
+
+              <div class="offering-price">
+                <h4 style="margin-bottom:5px; margin-top:5px" id="de-winterizing">De-Winterizing</h4>
+                <rv:price regular="199" discount="<%= GRAND_OPENING_PERCENT %>" suffix="*" /><br>(25% discount plus free fresh
+                tank sanitizing if we did the winterizing)
+              </div>
+
+              <hr>
+              <!-- Original wording
+* Ice makers, washing machines, dishwashers, and other specialty plumbing may require additional
+
+              winterizing steps and may incur additional cost. Please mention these features when booking so I can
+
+              confirm your total price in advance.
+-->
+              <!-- Booking detail: confirm specialty plumbing before quoting. -->
+              <p>* Ice makers, washing machines, dishwashers, and other specialty plumbing may require additional
+                winterizing steps and charges. Please mention these features when booking so I can confirm your total
+                price in advance.</p>
+
+            </div>
+
+          </article>

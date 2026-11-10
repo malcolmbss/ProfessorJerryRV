@@ -1,0 +1,6 @@
+<main id="main">
+    <%@ include file="/WEB-INF/services/training.jspf" %>
+        <%@ include file="/WEB-INF/services/maintenance.jspf" %>
+            <%@ include file="/WEB-INF/services/inspections.jspf" %>
+                <%@ include file="/WEB-INF/shared/contact-cta.jspf" %>
+</main>

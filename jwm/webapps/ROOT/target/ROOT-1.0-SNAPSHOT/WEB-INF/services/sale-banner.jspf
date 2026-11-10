@@ -1,0 +1,4 @@
+<div class="walkthrough-sale-banner" id="<%= saleBannerId %>">
+  <strong>GRAND OPENING SALE &middot; <%= GRAND_OPENING_PERCENT %>% OFF</strong>
+  <span>Through <strong><%= GRAND_OPENING_END %></strong><%= saleBannerDetails %></span>
+</div>

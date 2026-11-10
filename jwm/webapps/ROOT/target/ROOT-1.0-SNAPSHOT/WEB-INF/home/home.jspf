@@ -1,0 +1,18 @@
+<section class="hero" id="home">
+      <div class="hero-media" role="img"
+        aria-label="Placeholder for a photograph of Professor Jerry helping an RV owner"></div>
+      <div class="hero-overlay"></div>
+      <div class="container hero-content reveal">
+        <p class="eyebrow">Training &#x2022; Service &#x2022; Inspections</p>
+        <h1>Understand your RV.<br>Travel with confidence.</h1>
+        <p class="hero-copy">Patient, practical help for RV owners&#x2014;whether you are buying, learning,
+          troubleshooting, or preparing for the next trip.</p>
+        <div class="button-row">
+          <a class="button" href="#contact">Schedule a conversation</a>
+          <a class="button button-gold" href="#services">Explore services</a>
+          <button class="button button-gold" type="button" aria-haspopup="dialog"
+            aria-controls="grand-opening-popup" data-sale-open>Grand Opening Sale Info</button>
+          <a class="button button-gold" href="veterans-first-responders.html">Veterans/First Responders Discount</a>
+        </div>
+      </div>
+    </section>

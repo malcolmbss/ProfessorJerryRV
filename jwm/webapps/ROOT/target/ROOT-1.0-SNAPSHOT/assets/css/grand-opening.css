@@ -1,0 +1,44 @@
+.grand-opening-popup {
+  width: min(640px, calc(100vw - 2rem));
+  max-width: none;
+  max-height: calc(100dvh - 2rem);
+  margin: auto;
+  padding: 0;
+  overflow: auto;
+  border: 2px solid #e9b72e;
+  border-radius: 1rem;
+  background: #102541;
+  color: #fff;
+  box-shadow: 0 1rem 4rem rgb(0 0 0 / 35%);
+}
+.grand-opening-popup::backdrop { background: rgb(0 0 0 / 55%); }
+.grand-opening-popup__image { display: block; width: 100%; height: auto; }
+.grand-opening-popup__actions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: .75rem;
+  padding: 1rem;
+}
+.grand-opening-popup__actions button {
+  font: inherit;
+  cursor: pointer;
+}
+.button-gold {
+  border: 2px solid #e9b72e;
+  background: #102541;
+
+}
+.button-gold:hover { background: #1d385a; }
+
+
+.grand-opening-popup::backdrop { animation: sale-backdrop-in 1100ms ease both; }
+.grand-opening-popup.is-closing::backdrop { animation: sale-backdrop-out 750ms ease both; }
+.sale-confetti { position: absolute; inset: 0; overflow: hidden; pointer-events: none; border-radius: inherit; }
+.sale-confetti span { position: absolute; top: 0; width: 7px; height: 11px; }
+@keyframes sale-backdrop-in { from { background: transparent; } to { background: rgb(0 0 0 / 55%); } }
+@keyframes sale-backdrop-out { from { background: rgb(0 0 0 / 55%); } to { background: transparent; } }
+@media (prefers-reduced-motion: reduce) {
+  .grand-opening-popup::backdrop, .grand-opening-popup.is-closing::backdrop { animation: none; }
+}
+

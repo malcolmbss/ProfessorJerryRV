@@ -1,0 +1,24 @@
+<% for (RvPrice rv : RV_PRICES) { %>
+<article class="rv-price-card">
+  <header class="rv-price-card__header">
+    <img class="rv-price-card__image" src="<%= rv.image() %>" alt="" width="110" height="75" loading="lazy">
+    <div>
+      <h3><%= rv.name() %></h3>
+      <% if (!rv.detail().isEmpty()) { %><p><%= rv.detail() %></p><% } %>
+    </div>
+  </header>
+  <div class="rv-price-card__option">
+    <h4>Personalized Walkthrough</h4>
+    <div class="rv-price-card__prices">
+      <rv:price regular="<%= rv.walkthrough() %>" discount="<%= GRAND_OPENING_PERCENT %>" walkthrough="true" />
+    </div>
+  </div>
+  <div class="rv-price-card__option">
+    <h4>Walkthrough + Video Library</h4>
+    <div class="rv-price-card__prices">
+      <rv:price regular="<%= rv.walkthroughVideo() %>" discount="<%= GRAND_OPENING_PERCENT %>" walkthrough="true" />
+    </div>
+    <p class="rv-price-card__total">Total package price, including walkthrough</p>
+  </div>
+</article>
+<% } %>
