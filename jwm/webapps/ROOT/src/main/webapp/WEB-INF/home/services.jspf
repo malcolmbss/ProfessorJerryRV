@@ -11,10 +11,10 @@
         <a class="service-icon-link" href="services.html#training" aria-label="Learn about training">
           <span class="icon" aria-hidden="true">&#x1F393;</span>
         </a>
-        <h3 id="training">RV Training</h3>
+        <h3 id="training">RV Consulting &amp; Training</h3>
         <p>Hands-on orientation and patient instruction tailored to your RV, your experience level, and the way you
           travel.</p>
-        <a href="services.html#training">Learn about training <span aria-hidden="true">&#x2192;</span></a>
+        <a href="services.html#training">Learn about consulting &amp; training <span aria-hidden="true">&#x2192;</span></a>
       </article>
       <article class="service-card reveal">
         <a class="service-icon-link" href="services.html#service" aria-label="Learn about service">
