@@ -20,10 +20,10 @@
         <a class="service-icon-link" href="services.html#service" aria-label="Learn about service">
           <span class="icon" aria-hidden="true">&#x1F527;</span>
         </a>
-        <h3 id="service">RV Service</h3>
+        <h3 id="service">RV Maintenance &amp; Service</h3>
         <p>Practical troubleshooting, maintenance assistance, and straightforward explanations of what failed and
           why.</p>
-        <a href="services.html#service">Learn about service <span aria-hidden="true">&#x2192;</span></a>
+        <a href="services.html#service">Learn about maintenance &amp; service <span aria-hidden="true">&#x2192;</span></a>
       </article>
       <article class="service-card reveal">
         <a class="service-icon-link" href="services.html#inspections" aria-label="Learn about inspections">
