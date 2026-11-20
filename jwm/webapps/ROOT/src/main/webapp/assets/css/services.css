@@ -722,3 +722,15 @@
 .service-discount p {
   margin: .5rem 0 0;
 }
+
+/* Ownership phases: match the red uppercase labels on the walkthrough page. */
+.one-on-one-offerings h3.service-phase-heading {
+  margin: 1.5rem 0 .25rem;
+  color: var(--red, #b72d24);
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}

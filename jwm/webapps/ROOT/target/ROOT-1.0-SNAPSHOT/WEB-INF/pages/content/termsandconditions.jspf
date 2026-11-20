@@ -1,0 +1,13 @@
+<main id="main">
+<%@ include file="/WEB-INF/termsandconditions/intro.jspf" %>
+<section class="section">
+  <div class="container inner-page-content">
+    <p><strong>Effective date:</strong> November 11, 2026</p>
+    <%@ include file="/WEB-INF/termsandconditions/booking-and-payment.jspf" %>
+    <%@ include file="/WEB-INF/termsandconditions/cancellations.jspf" %>
+    <%@ include file="/WEB-INF/termsandconditions/service-scope.jspf" %>
+    <%@ include file="/WEB-INF/termsandconditions/website-and-contact.jspf" %>
+  </div>
+</section>
+<%@ include file="/WEB-INF/shared/contact-cta.jspf" %>
+</main>

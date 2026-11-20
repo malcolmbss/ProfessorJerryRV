@@ -20,7 +20,7 @@
 
 
 
-  <link rel="stylesheet" href="assets/css/services.css">
+  <link rel="stylesheet" href="assets/css/services.css?v=heading-fix-2">
   <style>
     .offering-card .offering-price {
       margin-top: 0;

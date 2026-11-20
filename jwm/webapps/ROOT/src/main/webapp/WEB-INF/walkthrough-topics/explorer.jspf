@@ -1,0 +1,22 @@
+<section class="section section-muted walkthrough-explorer" id="walkthrough-topics" aria-labelledby="walkthrough-topics-heading">
+  <div class="container">
+    <h2 id="walkthrough-topics-heading">What your walkthrough includes</h2>
+    <p class="walkthrough-explorer-lead">Every topic below that is relevant to your RV is included in your walkthrough price. Open the sections to see the scope of your visit. I prepare your personal guide and lead us through the applicable topics; your experience and questions help determine where we spend extra time.</p>
+    <div class="walkthrough-tools" data-walkthrough-tools hidden>
+      <div class="walkthrough-filter">
+        <label for="walkthrough-filter">Looking for something specific?</label>
+        <input type="search" id="walkthrough-filter" placeholder="Try batteries, propane, or leveling" autocomplete="off" aria-controls="walkthrough-topic-list">
+      </div>
+      <div class="walkthrough-actions">
+        <button type="button" data-walkthrough-expand>Open all sections</button>
+        <button type="button" data-walkthrough-collapse>Close all sections</button>
+        <button type="button" data-walkthrough-print>Print topic outline</button>
+      </div>
+    </div>
+    <p class="walkthrough-result" data-walkthrough-status role="status" aria-live="polite" hidden></p>
+    <div class="walkthrough-topic-list" id="walkthrough-topic-list">
+      <rv:walkthroughTopics />
+    </div>
+    <p class="walkthrough-print-note">Your walkthrough price includes all topics in this outline that apply to your RV. Your personalized guide identifies the equipment and systems relevant to your visit.</p>
+  </div>
+</section>

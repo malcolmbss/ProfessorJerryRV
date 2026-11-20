@@ -245,4 +245,16 @@
     "href": "veterans-first-responders.html",
     "keywords": ["MILITARY", "VETERAN", "FIRST RESPONDER", "POLICE", "FIREFIGHTER", "EMT" ]
   }
+,
+  {
+    "label": "Terms and Conditions",
+    "href": "termsandconditions.html",
+    "keywords": ["terms of service", "payment", "refund", "cancellation", "reschedule", "policies"]
+  }
+,
+  {
+    "label": "Personalized RV Walkthrough Topics",
+    "href": "walkthrough-topics.html",
+    "keywords": ["walkthru", "walk through", "walkthrough checklist", "orientation", "learn my rv", "training topics", "handout"]
+  }
 ]

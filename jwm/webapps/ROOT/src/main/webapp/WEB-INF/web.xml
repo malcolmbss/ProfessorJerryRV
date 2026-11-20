@@ -73,6 +73,22 @@
     <servlet-name>veterans-first-responders</servlet-name>
     <url-pattern>/veterans-first-responders.html</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <servlet-name>termsandconditions</servlet-name>
+    <jsp-file>/WEB-INF/pages/termsandconditions.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>termsandconditions</servlet-name>
+    <url-pattern>/termsandconditions.html</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>walkthrough-topics</servlet-name>
+    <jsp-file>/WEB-INF/pages/walkthrough-topics.jsp</jsp-file>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>walkthrough-topics</servlet-name>
+    <url-pattern>/walkthrough-topics.html</url-pattern>
+  </servlet-mapping>
   <welcome-file-list>
     <welcome-file>index.jsp</welcome-file>
   </welcome-file-list>
